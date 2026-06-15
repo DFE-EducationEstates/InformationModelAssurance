@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_07_09-61-Object Type</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Grouped</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_07_02-03-Object Type (2 requirements)" description="Object Type Shall Have Enumeration (PredefinedType) Defined, and Shall Have Enumeration (PredefinedType) That Is Not NOTDEFINED" instructions="" identifier="5_07_02,5_07_03">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>PredefinedType</ids:simpleValue>
+					</ids:name>
+				</ids:attribute>
+				<ids:attribute cardinality="prohibited">
+					<ids:name>
+						<ids:simpleValue>PredefinedType</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>NOTDEFINED</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="5_07_04-08-Object Type (3 requirements)" description="Object Type Shall Have Name Defined, and Shall Have Description Defined, and Shall Have Uniclass Classification Defined" instructions="" identifier="5_07_04,5_07_07,5_07_08">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONELEMENTTYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Pr_.*" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="5_07_09-61-Object Type (58 requirements)" description="Object Type Shall Have AssetType Defined, and Shall Have AssetType Matching The Projects Information Standard, and Shall Have Manufacturer That Is Defined, and Should Not Have Manufacturer That Is 'n/a', and Should Have Manufacturer That Is An Email Address, and Shall Have ModelLabel That Is Defined, and Shall Not Have ModelLabel That Is 'n/a', and Shall Have WarrantyGuarantorParts That Is Defined, and Should Not Have WarrantyGuarantorParts That Is 'n/a' Or Empty, and Should Have WarrantyGuarantorParts That Is An Email Address, and Shall Have WarrantyDurationParts That Is Defined, and Should Have WarrantyDurationParts That Is '0.0' Or Is A Valid Duration, and Should Have WarrantyDurationParts That Is A Valid Non-Zero Duration, and Shall Have WarrantyGuarantorLabor That Is Defined, and Should Not Have WarrantyGuarantorLabor That Is 'n/a' Or Empty, and Should Have WarrantyGuarantorLabor That Is An Email Address, and Shall Have WarrantyDurationLabor That Is Defined, and Should Have WarrantyDurationLabor That Is '0.0' Or Is A Valid Duration, and Should Have WarrantyDurationLabor That Is A Valid Non-Zero Duration, and Shall Have ReplacementCost That Is Defined, and Should Have ReplacementCost That Is 'n/a' Or Is A Replacement Cost For The Product Type, and Should Not Have ReplacementCost That Is 'n/a', and Shall Have ExpectedLife That Is Defined, and Should Have ExpectedLife That Is 'n/a' Or Is A Valid Expected Life For The Product Type, and Should Not Have ExpectedLife That Is 'n/a', and Shall Have WarrantyDescription That Is Defined, and Should Have WarrantyDescription That Is 'n/a' Or A Description Of The Warranty For The Product Type, and Should Not Have WarrantyDescription That Is 'n/a', and Shall Have NominalLength That Is Defined, and Should Have NominalLength That Is A Valid Number, and Shall Have NominalWidth That Is Defined, and Should Have NominalWidth That Is A Valid Number, and Shall Have NominalHeight That Is Defined, and Should Have NominalHeight That Is A Valid Number, and Shall Have ModelReference That Is Defined, and Should Not Have ModelReference That Is 'n/a', and Shall Have Shape That Is Defined, and Should Have Shape That Is Not 'n/a' Or Empty, and Shall Have Size That Is Defined, and Should Not Have Size That Is 'n/a', and Shall Have Color That Is Defined, and Should Not Have Color That Is 'n/a', and Shall Have Finish That Is Defined, and Should Not Have Finish That Is 'n/a', and Shall Have Grade That Is Defined, and Should Not Have Grade That Is 'n/a', and Shall Have Material That Is Defined, and Should Not Have Material That Is 'n/a', and Shall Have Constituents That Is Defined, and Should Not Have Constituents That Is 'n/a', and Shall Have Features That Is Defined, and Should Not Have Features That Is 'n/a', and Shall Have AccessibilityPerformance That Is Defined, and Should Not Have AccessibilityPerformance That Is 'n/a', and Shall Have CodePerformance That Is Defined, and Should Not Have CodePerformance That Is 'n/a', and Shall Have SustainabilityPerformance That Is Defined, and Should Not Have SustainabilityPerformance That Is 'n/a'" instructions="" identifier="5_07_09,5_07_10,5_07_11,5_07_12,5_07_13,5_07_14,5_07_15,5_07_16,5_07_17,5_07_18,5_07_19,5_07_19_02,5_07_20,5_07_21,5_07_22,5_07_23,5_07_24,5_07_24_02,5_07_25,5_07_26,5_07_26_02,5_07_27,5_07_28,5_07_28_02,5_07_29,5_07_30,5_07_30_02,5_07_31,5_07_32,5_07_33,5_07_34,5_07_35,5_07_36,5_07_37,5_07_38,5_07_39,5_07_40,5_07_41,5_07_42,5_07_43,5_07_44,5_07_45,5_07_46,5_07_47,5_07_48,5_07_49,5_07_50,5_07_51,5_07_52,5_07_53,5_07_54,5_07_55,5_07_56,5_07_57,5_07_58,5_07_59,5_07_60,5_07_61">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORYTYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCMECHANICALFASTENERTYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Asset</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>AssetType</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Asset</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>AssetType</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Fixed" />
+							<xs:enumeration value="Movable" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Manufacturer</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Manufacturer</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Manufacturer</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ModelLabel</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ModelLabel</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationParts</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[1-9]\d*(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDurationLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[1-9]\d*(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_EconomicImpactValues</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ReplacementCost</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_EconomicImpactValues</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ReplacementCost</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="n\/a|�?\d+(\.\d{2})?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_EconomicImpactValues</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ReplacementCost</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_ServiceLife</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ServiceLifeDuration</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_ServiceLife</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ServiceLifeDuration</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="n\/a|\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_ServiceLife</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ServiceLifeDuration</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDescription</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDescription</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="n\/a|(\w.*)+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyDescription</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalLength</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalLength</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalWidth</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalWidth</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NominalHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d+(\.\d+)?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ModelReference</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerTypeInformation</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ModelReference</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Shape</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Shape</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Size</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Size</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Color</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Color</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Finish</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Finish</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Grade</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Grade</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Material</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Material</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Constituents</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Constituents</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Features</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Features</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>AccessibilityPerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>AccessibilityPerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>CodePerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>CodePerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>SustainabilityPerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Specification</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>SustainabilityPerformance</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

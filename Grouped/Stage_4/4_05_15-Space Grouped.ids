@@ -1,0 +1,4461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>4_05_15-Space Grouped</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Grouped</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_57 : Spaces with classification 'S1001, S1002, S1048,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_57'" description="Spaces with classification 'S1001, S1002, S1048,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_57'" identifier="4_05_15_SL_25_10_57">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1001" />
+							<xs:enumeration value="S1002" />
+							<xs:enumeration value="S1048" />
+							<xs:enumeration value="S1049" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_57</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_72 : Spaces with classification 'S1003, S1015' Should Have Uniclass Classification Classification With Value 'SL_25_10_72'" description="Spaces with classification 'S1003, S1015' Should Have Uniclass Classification Classification With Value 'SL_25_10_72'" identifier="4_05_15_SL_25_10_72">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1003" />
+							<xs:enumeration value="S1015" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_72</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_14 : Spaces with classification 'S1004, S1005, S1006,+4 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_14'" description="Spaces with classification 'S1004, S1005, S1006,+4 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_14'" identifier="4_05_15_SL_25_10_14">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1004" />
+							<xs:enumeration value="S1005" />
+							<xs:enumeration value="S1006" />
+							<xs:enumeration value="S1007" />
+							<xs:enumeration value="S1012" />
+							<xs:enumeration value="S1013" />
+							<xs:enumeration value="S1016" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_14</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_67 : Spaces with classification 'S1008, S1009, S1010,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_67'" description="Spaces with classification 'S1008, S1009, S1010,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_67'" identifier="4_05_15_SL_25_10_67">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1008" />
+							<xs:enumeration value="S1009" />
+							<xs:enumeration value="S1010" />
+							<xs:enumeration value="S1011" />
+							<xs:enumeration value="S1017" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_67</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_78 : Spaces with classification 'S1014' Should Have Uniclass Classification Classification With Value 'SL_25_10_78'" description="Spaces with classification 'S1014' Should Have Uniclass Classification Classification With Value 'SL_25_10_78'" identifier="4_05_15_SL_25_10_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1014" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_30 : Spaces with classification 'S1018, S1031' Should Have Uniclass Classification Classification With Value 'SL_25_10_30'" description="Spaces with classification 'S1018, S1031' Should Have Uniclass Classification Classification With Value 'SL_25_10_30'" identifier="4_05_15_SL_25_10_30">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1018" />
+							<xs:enumeration value="S1031" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_30</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_55 : Spaces with classification 'S1019, S1020, S1043' Should Have Uniclass Classification Classification With Value 'SL_25_10_55'" description="Spaces with classification 'S1019, S1020, S1043' Should Have Uniclass Classification Classification With Value 'SL_25_10_55'" identifier="4_05_15_SL_25_10_55">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1019" />
+							<xs:enumeration value="S1020" />
+							<xs:enumeration value="S1043" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_55</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_40_22 : Spaces with classification 'S1021, S1022, S1027,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_40_22'" description="Spaces with classification 'S1021, S1022, S1027,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_40_22'" identifier="4_05_15_SL_25_40_22">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1021" />
+							<xs:enumeration value="S1022" />
+							<xs:enumeration value="S1027" />
+							<xs:enumeration value="S1028" />
+							<xs:enumeration value="S1029" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_40_22</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_40_23 : Spaces with classification 'S1023, S1030' Should Have Uniclass Classification Classification With Value 'SL_25_40_23'" description="Spaces with classification 'S1023, S1030' Should Have Uniclass Classification Classification With Value 'SL_25_40_23'" identifier="4_05_15_SL_25_40_23">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1023" />
+							<xs:enumeration value="S1030" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_40_23</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_04 : Spaces with classification 'S1024, S1032, S1033,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_04'" description="Spaces with classification 'S1024, S1032, S1033,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_04'" identifier="4_05_15_SL_25_10_04">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1024" />
+							<xs:enumeration value="S1032" />
+							<xs:enumeration value="S1033" />
+							<xs:enumeration value="S1034" />
+							<xs:enumeration value="S1035" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_04</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_41 : Spaces with classification 'S1025' Should Have Uniclass Classification Classification With Value 'SL_25_10_41'" description="Spaces with classification 'S1025' Should Have Uniclass Classification Classification With Value 'SL_25_10_41'" identifier="4_05_15_SL_25_10_41">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1025" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_41</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_75 : Spaces with classification 'S1026, S1038, S1039' Should Have Uniclass Classification Classification With Value 'SL_25_10_75'" description="Spaces with classification 'S1026, S1038, S1039' Should Have Uniclass Classification Classification With Value 'SL_25_10_75'" identifier="4_05_15_SL_25_10_75">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1026" />
+							<xs:enumeration value="S1038" />
+							<xs:enumeration value="S1039" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_75</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_40_65 : Spaces with classification 'S1036' Should Have Uniclass Classification Classification With Value 'SL_25_40_65'" description="Spaces with classification 'S1036' Should Have Uniclass Classification Classification With Value 'SL_25_40_65'" identifier="4_05_15_SL_25_40_65">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1036" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_40_65</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_74 : Spaces with classification 'S1037' Should Have Uniclass Classification Classification With Value 'SL_25_10_74'" description="Spaces with classification 'S1037' Should Have Uniclass Classification Classification With Value 'SL_25_10_74'" identifier="4_05_15_SL_25_10_74">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1037" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_74</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_40_30 : Spaces with classification 'S1040, S1041, S1042' Should Have Uniclass Classification Classification With Value 'SL_42_40_30'" description="Spaces with classification 'S1040, S1041, S1042' Should Have Uniclass Classification Classification With Value 'SL_42_40_30'" identifier="4_05_15_SL_42_40_30">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1040" />
+							<xs:enumeration value="S1041" />
+							<xs:enumeration value="S1042" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_40_30</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_54 : Spaces with classification 'S1044, S1047' Should Have Uniclass Classification Classification With Value 'SL_25_10_54'" description="Spaces with classification 'S1044, S1047' Should Have Uniclass Classification Classification With Value 'SL_25_10_54'" identifier="4_05_15_SL_25_10_54">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1044" />
+							<xs:enumeration value="S1047" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_54</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_24 : Spaces with classification 'S1045, S1046' Should Have Uniclass Classification Classification With Value 'SL_25_10_24'" description="Spaces with classification 'S1045, S1046' Should Have Uniclass Classification Classification With Value 'SL_25_10_24'" identifier="4_05_15_SL_25_10_24">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1045" />
+							<xs:enumeration value="S1046" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_24</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_20_80 : Spaces with classification 'S2001, S2002, S2003,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_80'" description="Spaces with classification 'S2001, S2002, S2003,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_80'" identifier="4_05_15_SL_90_20_80">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2001" />
+							<xs:enumeration value="S2002" />
+							<xs:enumeration value="S2003" />
+							<xs:enumeration value="S2004" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_20_80</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_40_42 : Spaces with classification 'S2005, S2062, S2064,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_40_42'" description="Spaces with classification 'S2005, S2062, S2064,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_40_42'" identifier="4_05_15_SL_25_40_42">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2005" />
+							<xs:enumeration value="S2062" />
+							<xs:enumeration value="S2064" />
+							<xs:enumeration value="S3029" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_40_42</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_40_82 : Spaces with classification 'S2006, S2008, S2009' Should Have Uniclass Classification Classification With Value 'SL_42_40_82'" description="Spaces with classification 'S2006, S2008, S2009' Should Have Uniclass Classification Classification With Value 'SL_42_40_82'" identifier="4_05_15_SL_42_40_82">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2006" />
+							<xs:enumeration value="S2008" />
+							<xs:enumeration value="S2009" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_40_82</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_40_35 : Spaces with classification 'S2007' Should Have Uniclass Classification Classification With Value 'SL_42_40_35'" description="Spaces with classification 'S2007' Should Have Uniclass Classification Classification With Value 'SL_42_40_35'" identifier="4_05_15_SL_42_40_35">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2007" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_40_35</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_01 : Spaces with classification 'S2010, S2011, S2012,+4 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_01'" description="Spaces with classification 'S2010, S2011, S2012,+4 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_01'" identifier="4_05_15_SL_25_10_01">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2010" />
+							<xs:enumeration value="S2011" />
+							<xs:enumeration value="S2012" />
+							<xs:enumeration value="S2013" />
+							<xs:enumeration value="S2060" />
+							<xs:enumeration value="S2061" />
+							<xs:enumeration value="S2063" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_01</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_21 : Spaces with classification 'S2014, S2015' Should Have Uniclass Classification Classification With Value 'SL_25_10_21'" description="Spaces with classification 'S2014, S2015' Should Have Uniclass Classification Classification With Value 'SL_25_10_21'" identifier="4_05_15_SL_25_10_21">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2014" />
+							<xs:enumeration value="S2015" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_21</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_20_22 : Spaces with classification 'S2016, S2017, S2018,+21 more' Should Have Uniclass Classification Classification With Value 'SL_40_20_22'" description="Spaces with classification 'S2016, S2017, S2018,+21 more' Should Have Uniclass Classification Classification With Value 'SL_40_20_22'" identifier="4_05_15_SL_40_20_22">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2016" />
+							<xs:enumeration value="S2017" />
+							<xs:enumeration value="S2018" />
+							<xs:enumeration value="S2019" />
+							<xs:enumeration value="S2020" />
+							<xs:enumeration value="S2021" />
+							<xs:enumeration value="S2022" />
+							<xs:enumeration value="S2023" />
+							<xs:enumeration value="S2024" />
+							<xs:enumeration value="S2025" />
+							<xs:enumeration value="S2026" />
+							<xs:enumeration value="S2027" />
+							<xs:enumeration value="S2028" />
+							<xs:enumeration value="S2029" />
+							<xs:enumeration value="S2030" />
+							<xs:enumeration value="S2031" />
+							<xs:enumeration value="S2032" />
+							<xs:enumeration value="S2033" />
+							<xs:enumeration value="S2034" />
+							<xs:enumeration value="S2035" />
+							<xs:enumeration value="S2040" />
+							<xs:enumeration value="S2041" />
+							<xs:enumeration value="S2042" />
+							<xs:enumeration value="S2043" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_20_22</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_20_43 : Spaces with classification 'S2036, S2037, S2038,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_20_43'" description="Spaces with classification 'S2036, S2037, S2038,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_20_43'" identifier="4_05_15_SL_40_20_43">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2036" />
+							<xs:enumeration value="S2037" />
+							<xs:enumeration value="S2038" />
+							<xs:enumeration value="S2039" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_20_43</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_05 : Spaces with classification 'S2044, S2045, S2046,+13 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_05'" description="Spaces with classification 'S2044, S2045, S2046,+13 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_05'" identifier="4_05_15_SL_25_10_05">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S2044" />
+							<xs:enumeration value="S2045" />
+							<xs:enumeration value="S2046" />
+							<xs:enumeration value="S2047" />
+							<xs:enumeration value="S2048" />
+							<xs:enumeration value="S2049" />
+							<xs:enumeration value="S2050" />
+							<xs:enumeration value="S2051" />
+							<xs:enumeration value="S2052" />
+							<xs:enumeration value="S2053" />
+							<xs:enumeration value="S2054" />
+							<xs:enumeration value="S2055" />
+							<xs:enumeration value="S2056" />
+							<xs:enumeration value="S2057" />
+							<xs:enumeration value="S2058" />
+							<xs:enumeration value="S2059" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_05</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_75_80 : Spaces with classification 'S3001, S3002, S3008,+10 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_80'" description="Spaces with classification 'S3001, S3002, S3008,+10 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_80'" identifier="4_05_15_SL_25_75_80">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3001" />
+							<xs:enumeration value="S3002" />
+							<xs:enumeration value="S3008" />
+							<xs:enumeration value="S3011" />
+							<xs:enumeration value="S3012" />
+							<xs:enumeration value="S3013" />
+							<xs:enumeration value="S3014" />
+							<xs:enumeration value="S3015" />
+							<xs:enumeration value="S3016" />
+							<xs:enumeration value="S3017" />
+							<xs:enumeration value="S3018" />
+							<xs:enumeration value="S3058" />
+							<xs:enumeration value="S3060" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_75_80</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_84 : Spaces with classification 'S3003, S3004, S3005,+3 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_84'" description="Spaces with classification 'S3003, S3004, S3005,+3 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_84'" identifier="4_05_15_SL_25_10_84">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3003" />
+							<xs:enumeration value="S3004" />
+							<xs:enumeration value="S3005" />
+							<xs:enumeration value="S3006" />
+							<xs:enumeration value="S3007" />
+							<xs:enumeration value="S3050" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_84</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_30_50_40 : Spaces with classification 'S3009' Should Have Uniclass Classification Classification With Value 'SL_30_50_40'" description="Spaces with classification 'S3009' Should Have Uniclass Classification Classification With Value 'SL_30_50_40'" identifier="4_05_15_SL_30_50_40">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3009" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_30_50_40</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_10_15 : Spaces with classification 'S3010' Should Have Uniclass Classification Classification With Value 'SL_35_10_15'" description="Spaces with classification 'S3010' Should Have Uniclass Classification Classification With Value 'SL_35_10_15'" identifier="4_05_15_SL_35_10_15">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3010" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_10_15</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_10_88 : Spaces with classification 'S3019, S3020, S3028' Should Have Uniclass Classification Classification With Value 'SL_35_10_88'" description="Spaces with classification 'S3019, S3020, S3028' Should Have Uniclass Classification Classification With Value 'SL_35_10_88'" identifier="4_05_15_SL_35_10_88">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3019" />
+							<xs:enumeration value="S3020" />
+							<xs:enumeration value="S3028" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_10_88</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_05_81 : Spaces with classification 'S3021' Should Have Uniclass Classification Classification With Value 'SL_40_05_81'" description="Spaces with classification 'S3021' Should Have Uniclass Classification Classification With Value 'SL_40_05_81'" identifier="4_05_15_SL_40_05_81">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3021" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_05_81</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_50_78 : Spaces with classification 'S3022' Should Have Uniclass Classification Classification With Value 'SL_35_50_78'" description="Spaces with classification 'S3022' Should Have Uniclass Classification Classification With Value 'SL_35_50_78'" identifier="4_05_15_SL_35_50_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3022" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_50_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_10_66 : Spaces with classification 'S3023' Should Have Uniclass Classification Classification With Value 'SL_35_10_66'" description="Spaces with classification 'S3023' Should Have Uniclass Classification Classification With Value 'SL_35_10_66'" identifier="4_05_15_SL_35_10_66">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3023" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_10_66</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_10_58 : Spaces with classification 'S3024' Should Have Uniclass Classification Classification With Value 'SL_35_10_58'" description="Spaces with classification 'S3024' Should Have Uniclass Classification Classification With Value 'SL_35_10_58'" identifier="4_05_15_SL_35_10_58">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3024" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_10_58</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_50_69 : Spaces with classification 'S3025, S3026, S3027' Should Have Uniclass Classification Classification With Value 'SL_35_50_69'" description="Spaces with classification 'S3025, S3026, S3027' Should Have Uniclass Classification Classification With Value 'SL_35_50_69'" identifier="4_05_15_SL_35_50_69">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3025" />
+							<xs:enumeration value="S3026" />
+							<xs:enumeration value="S3027" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_50_69</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_75_55 : Spaces with classification 'S3030, S3031, S3032,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_55'" description="Spaces with classification 'S3030, S3031, S3032,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_55'" identifier="4_05_15_SL_25_75_55">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3030" />
+							<xs:enumeration value="S3031" />
+							<xs:enumeration value="S3032" />
+							<xs:enumeration value="S3033" />
+							<xs:enumeration value="S3034" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_75_55</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_60_78 : Spaces with classification 'S3035' Should Have Uniclass Classification Classification With Value 'SL_40_60_78'" description="Spaces with classification 'S3035' Should Have Uniclass Classification Classification With Value 'SL_40_60_78'" identifier="4_05_15_SL_40_60_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3035" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_60_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_75_76 : Spaces with classification 'S3036, S3037, S3038,+9 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_76'" description="Spaces with classification 'S3036, S3037, S3038,+9 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_76'" identifier="4_05_15_SL_25_75_76">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3036" />
+							<xs:enumeration value="S3037" />
+							<xs:enumeration value="S3038" />
+							<xs:enumeration value="S3039" />
+							<xs:enumeration value="S3040" />
+							<xs:enumeration value="S3041" />
+							<xs:enumeration value="S3042" />
+							<xs:enumeration value="S3043" />
+							<xs:enumeration value="S3044" />
+							<xs:enumeration value="S3045" />
+							<xs:enumeration value="S3046" />
+							<xs:enumeration value="S3047" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_75_76</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_75_45 : Spaces with classification 'S3048, S3049, S3051,+6 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_45'" description="Spaces with classification 'S3048, S3049, S3051,+6 more' Should Have Uniclass Classification Classification With Value 'SL_25_75_45'" identifier="4_05_15_SL_25_75_45">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3048" />
+							<xs:enumeration value="S3049" />
+							<xs:enumeration value="S3051" />
+							<xs:enumeration value="S3052" />
+							<xs:enumeration value="S3053" />
+							<xs:enumeration value="S3054" />
+							<xs:enumeration value="S3055" />
+							<xs:enumeration value="S3056" />
+							<xs:enumeration value="S3057" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_75_45</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_75_82 : Spaces with classification 'S3059' Should Have Uniclass Classification Classification With Value 'SL_25_75_82'" description="Spaces with classification 'S3059' Should Have Uniclass Classification Classification With Value 'SL_25_75_82'" identifier="4_05_15_SL_25_75_82">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S3059" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_75_82</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_20_65_42 : Spaces with classification 'S4001, S4005' Should Have Uniclass Classification Classification With Value 'SL_20_65_42'" description="Spaces with classification 'S4001, S4005' Should Have Uniclass Classification Classification With Value 'SL_20_65_42'" identifier="4_05_15_SL_20_65_42">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4001" />
+							<xs:enumeration value="S4005" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_65_42</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_20_15_59 : Spaces with classification 'S4002, S4004, S4007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_20_15_59'" description="Spaces with classification 'S4002, S4004, S4007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_20_15_59'" identifier="4_05_15_SL_20_15_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4002" />
+							<xs:enumeration value="S4004" />
+							<xs:enumeration value="S4007" />
+							<xs:enumeration value="S4010" />
+							<xs:enumeration value="S4013" />
+							<xs:enumeration value="S4014" />
+							<xs:enumeration value="S4015" />
+							<xs:enumeration value="S4020" />
+							<xs:enumeration value="S4021" />
+							<xs:enumeration value="S4022" />
+							<xs:enumeration value="S4023" />
+							<xs:enumeration value="S4024" />
+							<xs:enumeration value="S4025" />
+							<xs:enumeration value="S4026" />
+							<xs:enumeration value="S4027" />
+							<xs:enumeration value="S4034" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_15_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_10_31 : Spaces with classification 'S4003, S4008, S4012' Should Have Uniclass Classification Classification With Value 'SL_35_10_31'" description="Spaces with classification 'S4003, S4008, S4012' Should Have Uniclass Classification Classification With Value 'SL_35_10_31'" identifier="4_05_15_SL_35_10_31">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4003" />
+							<xs:enumeration value="S4008" />
+							<xs:enumeration value="S4012" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_10_31</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_20_15_73 : Spaces with classification 'S4006, S4009, S4011' Should Have Uniclass Classification Classification With Value 'SL_20_15_73'" description="Spaces with classification 'S4006, S4009, S4011' Should Have Uniclass Classification Classification With Value 'SL_20_15_73'" identifier="4_05_15_SL_20_15_73">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4006" />
+							<xs:enumeration value="S4009" />
+							<xs:enumeration value="S4011" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_15_73</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_20_86 : Spaces with classification 'S4016, S4017, S4037,+6 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_86'" description="Spaces with classification 'S4016, S4017, S4037,+6 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_86'" identifier="4_05_15_SL_90_20_86">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4016" />
+							<xs:enumeration value="S4017" />
+							<xs:enumeration value="S4037" />
+							<xs:enumeration value="S4038" />
+							<xs:enumeration value="S4039" />
+							<xs:enumeration value="S4040" />
+							<xs:enumeration value="S4041" />
+							<xs:enumeration value="S4042" />
+							<xs:enumeration value="S4044" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_20_86</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_60_45 : Spaces with classification 'S4018, S4019' Should Have Uniclass Classification Classification With Value 'SL_35_60_45'" description="Spaces with classification 'S4018, S4019' Should Have Uniclass Classification Classification With Value 'SL_35_60_45'" identifier="4_05_15_SL_35_60_45">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4018" />
+							<xs:enumeration value="S4019" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_60_45</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_20_85 : Spaces with classification 'S4028, S4031, S4033,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_85'" description="Spaces with classification 'S4028, S4031, S4033,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_85'" identifier="4_05_15_SL_90_20_85">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4028" />
+							<xs:enumeration value="S4031" />
+							<xs:enumeration value="S4033" />
+							<xs:enumeration value="S4036" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_20_85</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_70_13 : Spaces with classification 'S4029, S4030, S4032,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_70_13'" description="Spaces with classification 'S4029, S4030, S4032,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_70_13'" identifier="4_05_15_SL_25_70_13">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4029" />
+							<xs:enumeration value="S4030" />
+							<xs:enumeration value="S4032" />
+							<xs:enumeration value="S4035" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_70_13</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_50_60 : Spaces with classification 'S4043' Should Have Uniclass Classification Classification With Value 'SL_35_50_60'" description="Spaces with classification 'S4043' Should Have Uniclass Classification Classification With Value 'SL_35_50_60'" identifier="4_05_15_SL_35_50_60">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4043" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_50_60</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_35 : Spaces with classification 'S6001, S6002, S6003,+5 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_35'" description="Spaces with classification 'S6001, S6002, S6003,+5 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_35'" identifier="4_05_15_SL_90_50_35">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6001" />
+							<xs:enumeration value="S6002" />
+							<xs:enumeration value="S6003" />
+							<xs:enumeration value="S6052" />
+							<xs:enumeration value="S6053" />
+							<xs:enumeration value="S6055" />
+							<xs:enumeration value="S6056" />
+							<xs:enumeration value="S6057" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_35</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_87 : Spaces with classification 'S6004, S6006, S6007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_87'" description="Spaces with classification 'S6004, S6006, S6007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_87'" identifier="4_05_15_SL_90_50_87">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6004" />
+							<xs:enumeration value="S6006" />
+							<xs:enumeration value="S6007" />
+							<xs:enumeration value="S6009" />
+							<xs:enumeration value="S6011" />
+							<xs:enumeration value="S6012" />
+							<xs:enumeration value="S6013" />
+							<xs:enumeration value="S6014" />
+							<xs:enumeration value="S6016" />
+							<xs:enumeration value="S6023" />
+							<xs:enumeration value="S6051" />
+							<xs:enumeration value="S6058" />
+							<xs:enumeration value="S6059" />
+							<xs:enumeration value="S6061" />
+							<xs:enumeration value="S6068" />
+							<xs:enumeration value="S6069" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_87</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_20_14 : Spaces with classification 'S6005, S6008, S6010,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_14'" description="Spaces with classification 'S6005, S6008, S6010,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_14'" identifier="4_05_15_SL_90_20_14">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6005" />
+							<xs:enumeration value="S6008" />
+							<xs:enumeration value="S6010" />
+							<xs:enumeration value="S6062" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_20_14</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_80_22 : Spaces with classification 'S6015' Should Have Uniclass Classification Classification With Value 'SL_25_80_22'" description="Spaces with classification 'S6015' Should Have Uniclass Classification Classification With Value 'SL_25_80_22'" identifier="4_05_15_SL_25_80_22">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6015" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_80_22</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_80_75 : Spaces with classification 'S6017, S6019, S6020,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_80_75'" description="Spaces with classification 'S6017, S6019, S6020,+1 more' Should Have Uniclass Classification Classification With Value 'SL_25_80_75'" identifier="4_05_15_SL_25_80_75">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6017" />
+							<xs:enumeration value="S6019" />
+							<xs:enumeration value="S6020" />
+							<xs:enumeration value="S6022" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_80_75</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_13 : Spaces with classification 'S6018, S6021' Should Have Uniclass Classification Classification With Value 'SL_90_50_13'" description="Spaces with classification 'S6018, S6021' Should Have Uniclass Classification Classification With Value 'SL_90_50_13'" identifier="4_05_15_SL_90_50_13">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6018" />
+							<xs:enumeration value="S6021" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_13</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_82 : Spaces with classification 'S6024, S6025, S6026,+16 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_82'" description="Spaces with classification 'S6024, S6025, S6026,+16 more' Should Have Uniclass Classification Classification With Value 'SL_90_50_82'" identifier="4_05_15_SL_90_50_82">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6024" />
+							<xs:enumeration value="S6025" />
+							<xs:enumeration value="S6026" />
+							<xs:enumeration value="S6027" />
+							<xs:enumeration value="S6028" />
+							<xs:enumeration value="S6029" />
+							<xs:enumeration value="S6030" />
+							<xs:enumeration value="S6031" />
+							<xs:enumeration value="S6032" />
+							<xs:enumeration value="S6033" />
+							<xs:enumeration value="S6034" />
+							<xs:enumeration value="S6035" />
+							<xs:enumeration value="S6036" />
+							<xs:enumeration value="S6037" />
+							<xs:enumeration value="S6039" />
+							<xs:enumeration value="S6047" />
+							<xs:enumeration value="S6049" />
+							<xs:enumeration value="S6050" />
+							<xs:enumeration value="S6054" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_82</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_73 : Spaces with classification 'S6038, S6040, S6041' Should Have Uniclass Classification Classification With Value 'SL_90_50_73'" description="Spaces with classification 'S6038, S6040, S6041' Should Have Uniclass Classification Classification With Value 'SL_90_50_73'" identifier="4_05_15_SL_90_50_73">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6038" />
+							<xs:enumeration value="S6040" />
+							<xs:enumeration value="S6041" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_73</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_60_78 : Spaces with classification 'S6042, S6043, S6045,+3 more' Should Have Uniclass Classification Classification With Value 'SL_35_60_78'" description="Spaces with classification 'S6042, S6043, S6045,+3 more' Should Have Uniclass Classification Classification With Value 'SL_35_60_78'" identifier="4_05_15_SL_35_60_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6042" />
+							<xs:enumeration value="S6043" />
+							<xs:enumeration value="S6045" />
+							<xs:enumeration value="S6046" />
+							<xs:enumeration value="S6048" />
+							<xs:enumeration value="S6067" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_60_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_22 : Spaces with classification 'S6044' Should Have Uniclass Classification Classification With Value 'SL_90_50_22'" description="Spaces with classification 'S6044' Should Have Uniclass Classification Classification With Value 'SL_90_50_22'" identifier="4_05_15_SL_90_50_22">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6044" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_22</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_77 : Spaces with classification 'S6060' Should Have Uniclass Classification Classification With Value 'SL_90_50_77'" description="Spaces with classification 'S6060' Should Have Uniclass Classification Classification With Value 'SL_90_50_77'" identifier="4_05_15_SL_90_50_77">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6060" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_77</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_16 : Spaces with classification 'S6063' Should Have Uniclass Classification Classification With Value 'SL_90_50_16'" description="Spaces with classification 'S6063' Should Have Uniclass Classification Classification With Value 'SL_90_50_16'" identifier="4_05_15_SL_90_50_16">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6063" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_16</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_10 : Spaces with classification 'S6064, S6065, S6066' Should Have Uniclass Classification Classification With Value 'SL_90_50_10'" description="Spaces with classification 'S6064, S6065, S6066' Should Have Uniclass Classification Classification With Value 'SL_90_50_10'" identifier="4_05_15_SL_90_50_10">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S6064" />
+							<xs:enumeration value="S6065" />
+							<xs:enumeration value="S6066" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_10</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_20_15_71 : Spaces with classification 'S7001, S7004' Should Have Uniclass Classification Classification With Value 'SL_20_15_71'" description="Spaces with classification 'S7001, S7004' Should Have Uniclass Classification Classification With Value 'SL_20_15_71'" identifier="4_05_15_SL_20_15_71">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7001" />
+							<xs:enumeration value="S7004" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_15_71</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_10_15 : Spaces with classification 'S7002, S7005, S7010,+16 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_15'" description="Spaces with classification 'S7002, S7005, S7010,+16 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_15'" identifier="4_05_15_SL_90_10_15">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7002" />
+							<xs:enumeration value="S7005" />
+							<xs:enumeration value="S7010" />
+							<xs:enumeration value="S7018" />
+							<xs:enumeration value="S7019" />
+							<xs:enumeration value="S7020" />
+							<xs:enumeration value="S7035" />
+							<xs:enumeration value="S7036" />
+							<xs:enumeration value="S7051" />
+							<xs:enumeration value="S7052" />
+							<xs:enumeration value="S7053" />
+							<xs:enumeration value="S7054" />
+							<xs:enumeration value="S7055" />
+							<xs:enumeration value="S7057" />
+							<xs:enumeration value="S7059" />
+							<xs:enumeration value="S7076" />
+							<xs:enumeration value="S7110" />
+							<xs:enumeration value="S7111" />
+							<xs:enumeration value="S7112" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_10_15</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_10_51 : Spaces with classification 'S7003, S7007, S7056' Should Have Uniclass Classification Classification With Value 'SL_90_10_51'" description="Spaces with classification 'S7003, S7007, S7056' Should Have Uniclass Classification Classification With Value 'SL_90_10_51'" identifier="4_05_15_SL_90_10_51">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7003" />
+							<xs:enumeration value="S7007" />
+							<xs:enumeration value="S7056" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_10_51</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_89 : Spaces with classification 'S7006, S7009, S7011,+16 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_89'" description="Spaces with classification 'S7006, S7009, S7011,+16 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_89'" identifier="4_05_15_SL_35_80_89">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7006" />
+							<xs:enumeration value="S7009" />
+							<xs:enumeration value="S7011" />
+							<xs:enumeration value="S7013" />
+							<xs:enumeration value="S7014" />
+							<xs:enumeration value="S7015" />
+							<xs:enumeration value="S7016" />
+							<xs:enumeration value="S7017" />
+							<xs:enumeration value="S7060" />
+							<xs:enumeration value="S7061" />
+							<xs:enumeration value="S7062" />
+							<xs:enumeration value="S7064" />
+							<xs:enumeration value="S7066" />
+							<xs:enumeration value="S7067" />
+							<xs:enumeration value="S7068" />
+							<xs:enumeration value="S7069" />
+							<xs:enumeration value="S7070" />
+							<xs:enumeration value="S7082" />
+							<xs:enumeration value="S7109" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_89</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_39 : Spaces with classification 'S7008, S7012, S7073,+1 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_39'" description="Spaces with classification 'S7008, S7012, S7073,+1 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_39'" identifier="4_05_15_SL_35_80_39">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7008" />
+							<xs:enumeration value="S7012" />
+							<xs:enumeration value="S7073" />
+							<xs:enumeration value="S7074" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_39</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_90_64 : Spaces with classification 'S7021, S7025, S7092,+6 more' Should Have Uniclass Classification Classification With Value 'SL_90_90_64'" description="Spaces with classification 'S7021, S7025, S7092,+6 more' Should Have Uniclass Classification Classification With Value 'SL_90_90_64'" identifier="4_05_15_SL_90_90_64">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7021" />
+							<xs:enumeration value="S7025" />
+							<xs:enumeration value="S7092" />
+							<xs:enumeration value="S7093" />
+							<xs:enumeration value="S7094" />
+							<xs:enumeration value="S7095" />
+							<xs:enumeration value="S7096" />
+							<xs:enumeration value="S7097" />
+							<xs:enumeration value="S7108" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_90_64</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_60_14 : Spaces with classification 'S7022, S7023, S7024,+10 more' Should Have Uniclass Classification Classification With Value 'SL_35_60_14'" description="Spaces with classification 'S7022, S7023, S7024,+10 more' Should Have Uniclass Classification Classification With Value 'SL_35_60_14'" identifier="4_05_15_SL_35_60_14">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7022" />
+							<xs:enumeration value="S7023" />
+							<xs:enumeration value="S7024" />
+							<xs:enumeration value="S7026" />
+							<xs:enumeration value="S7027" />
+							<xs:enumeration value="S7028" />
+							<xs:enumeration value="S7029" />
+							<xs:enumeration value="S7030" />
+							<xs:enumeration value="S7031" />
+							<xs:enumeration value="S7032" />
+							<xs:enumeration value="S7033" />
+							<xs:enumeration value="S7034" />
+							<xs:enumeration value="S7107" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_60_14</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_10_87 : Spaces with classification 'S7037, S7038, S7039,+4 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_87'" description="Spaces with classification 'S7037, S7038, S7039,+4 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_87'" identifier="4_05_15_SL_90_10_87">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7037" />
+							<xs:enumeration value="S7038" />
+							<xs:enumeration value="S7039" />
+							<xs:enumeration value="S7040" />
+							<xs:enumeration value="S7041" />
+							<xs:enumeration value="S7043" />
+							<xs:enumeration value="S7049" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_10_87</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_20_90_25 : Spaces with classification 'S7042' Should Have Uniclass Classification Classification With Value 'SL_20_90_25'" description="Spaces with classification 'S7042' Should Have Uniclass Classification Classification With Value 'SL_20_90_25'" identifier="4_05_15_SL_20_90_25">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7042" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_90_25</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_10_47 : Spaces with classification 'S7044, S7045, S7046,+3 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_47'" description="Spaces with classification 'S7044, S7045, S7046,+3 more' Should Have Uniclass Classification Classification With Value 'SL_90_10_47'" identifier="4_05_15_SL_90_10_47">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7044" />
+							<xs:enumeration value="S7045" />
+							<xs:enumeration value="S7046" />
+							<xs:enumeration value="S7047" />
+							<xs:enumeration value="S7048" />
+							<xs:enumeration value="S7050" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_10_47</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_30_60_47 : Spaces with classification 'S7058, S7091' Should Have Uniclass Classification Classification With Value 'SL_30_60_47'" description="Spaces with classification 'S7058, S7091' Should Have Uniclass Classification Classification With Value 'SL_30_60_47'" identifier="4_05_15_SL_30_60_47">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7058" />
+							<xs:enumeration value="S7091" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_30_60_47</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_20_13 : Spaces with classification 'S7063, S7078, S7079,+4 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_13'" description="Spaces with classification 'S7063, S7078, S7079,+4 more' Should Have Uniclass Classification Classification With Value 'SL_90_20_13'" identifier="4_05_15_SL_90_20_13">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7063" />
+							<xs:enumeration value="S7078" />
+							<xs:enumeration value="S7079" />
+							<xs:enumeration value="S7080" />
+							<xs:enumeration value="S7081" />
+							<xs:enumeration value="S7083" />
+							<xs:enumeration value="S7090" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_20_13</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_03 : Spaces with classification 'S7065, S7071, S7072' Should Have Uniclass Classification Classification With Value 'SL_35_80_03'" description="Spaces with classification 'S7065, S7071, S7072' Should Have Uniclass Classification Classification With Value 'SL_35_80_03'" identifier="4_05_15_SL_35_80_03">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7065" />
+							<xs:enumeration value="S7071" />
+							<xs:enumeration value="S7072" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_03</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_00 : Spaces with classification 'S7075, S7077' Should Have Uniclass Classification Classification With Value 'SL_35_80_00'" description="Spaces with classification 'S7075, S7077' Should Have Uniclass Classification Classification With Value 'SL_35_80_00'" identifier="4_05_15_SL_35_80_00">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7075" />
+							<xs:enumeration value="S7077" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_00</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_80 : Spaces with classification 'S7084, S7088, S7089' Should Have Uniclass Classification Classification With Value 'SL_35_80_80'" description="Spaces with classification 'S7084, S7088, S7089' Should Have Uniclass Classification Classification With Value 'SL_35_80_80'" identifier="4_05_15_SL_35_80_80">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7084" />
+							<xs:enumeration value="S7088" />
+							<xs:enumeration value="S7089" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_80</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_80_01 : Spaces with classification 'S7085, S7086, S7087' Should Have Uniclass Classification Classification With Value 'SL_35_80_01'" description="Spaces with classification 'S7085, S7086, S7087' Should Have Uniclass Classification Classification With Value 'SL_35_80_01'" identifier="4_05_15_SL_35_80_01">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7085" />
+							<xs:enumeration value="S7086" />
+							<xs:enumeration value="S7087" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_01</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_90_78 : Spaces with classification 'S7098, S7099, S7100' Should Have Uniclass Classification Classification With Value 'SL_90_90_78'" description="Spaces with classification 'S7098, S7099, S7100' Should Have Uniclass Classification Classification With Value 'SL_90_90_78'" identifier="4_05_15_SL_90_90_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7098" />
+							<xs:enumeration value="S7099" />
+							<xs:enumeration value="S7100" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_90_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_90_77 : Spaces with classification 'S7101, S7102, S7103,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_90_77'" description="Spaces with classification 'S7101, S7102, S7103,+1 more' Should Have Uniclass Classification Classification With Value 'SL_90_90_77'" identifier="4_05_15_SL_90_90_77">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7101" />
+							<xs:enumeration value="S7102" />
+							<xs:enumeration value="S7103" />
+							<xs:enumeration value="S7104" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_90_77</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_75_10_21 : Spaces with classification 'S7105, S7106' Should Have Uniclass Classification Classification With Value 'SL_75_10_21'" description="Spaces with classification 'S7105, S7106' Should Have Uniclass Classification Classification With Value 'SL_75_10_21'" identifier="4_05_15_SL_75_10_21">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7105" />
+							<xs:enumeration value="S7106" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_75_10_21</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_n/a : Spaces with classification 'S7501, P6001' Should Have Uniclass Classification Classification With Value 'n/a'" description="Spaces with classification 'S7501, P6001' Should Have Uniclass Classification Classification With Value 'n/a'" identifier="4_05_15_n/a">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7501" />
+							<xs:enumeration value="P6001" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>n/a</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_55_36 : Spaces with classification 'P1001, P2001, P2006' Should Have Uniclass Classification Classification With Value 'SL_40_55_36'" description="Spaces with classification 'P1001, P2001, P2006' Should Have Uniclass Classification Classification With Value 'SL_40_55_36'" identifier="4_05_15_SL_40_55_36">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1001" />
+							<xs:enumeration value="P2001" />
+							<xs:enumeration value="P2006" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_55_36</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_10_60 : Spaces with classification 'P1002, P1003, P1006,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_60'" description="Spaces with classification 'P1002, P1003, P1006,+2 more' Should Have Uniclass Classification Classification With Value 'SL_25_10_60'" identifier="4_05_15_SL_25_10_60">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1002" />
+							<xs:enumeration value="P1003" />
+							<xs:enumeration value="P1006" />
+							<xs:enumeration value="P1007" />
+							<xs:enumeration value="P4012" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_10_60</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_20_59 : Spaces with classification 'P1004' Should Have Uniclass Classification Classification With Value 'SL_40_20_59'" description="Spaces with classification 'P1004' Should Have Uniclass Classification Classification With Value 'SL_40_20_59'" identifier="4_05_15_SL_40_20_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1004" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_20_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_35_63 : Spaces with classification 'P1005, P6002, P6003' Should Have Uniclass Classification Classification With Value 'SL_80_35_63'" description="Spaces with classification 'P1005, P6002, P6003' Should Have Uniclass Classification Classification With Value 'SL_80_35_63'" identifier="4_05_15_SL_80_35_63">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1005" />
+							<xs:enumeration value="P6002" />
+							<xs:enumeration value="P6003" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_35_63</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_25_40_61 : Spaces with classification 'P1008' Should Have Uniclass Classification Classification With Value 'SL_25_40_61'" description="Spaces with classification 'P1008' Should Have Uniclass Classification Classification With Value 'SL_25_40_61'" identifier="4_05_15_SL_25_40_61">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1008" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_25_40_61</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_55_59 : Spaces with classification 'P1009, P1010, P1012,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_59'" description="Spaces with classification 'P1009, P1010, P1012,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_59'" identifier="4_05_15_SL_40_55_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1009" />
+							<xs:enumeration value="P1010" />
+							<xs:enumeration value="P1012" />
+							<xs:enumeration value="P1013" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_55_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_50_84 : Spaces with classification 'P1011, P4016, P6010' Should Have Uniclass Classification Classification With Value 'SL_90_50_84'" description="Spaces with classification 'P1011, P4016, P6010' Should Have Uniclass Classification Classification With Value 'SL_90_50_84'" identifier="4_05_15_SL_90_50_84">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1011" />
+							<xs:enumeration value="P4016" />
+							<xs:enumeration value="P6010" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_50_84</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_55_61 : Spaces with classification 'P1014' Should Have Uniclass Classification Classification With Value 'SL_40_55_61'" description="Spaces with classification 'P1014' Should Have Uniclass Classification Classification With Value 'SL_40_55_61'" identifier="4_05_15_SL_40_55_61">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P1014" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_55_61</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_55 : Spaces with classification 'P2002, P2003, P2004,+1 more' Should Have Uniclass Classification Classification With Value 'SL_42_15_55'" description="Spaces with classification 'P2002, P2003, P2004,+1 more' Should Have Uniclass Classification Classification With Value 'SL_42_15_55'" identifier="4_05_15_SL_42_15_55">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P2002" />
+							<xs:enumeration value="P2003" />
+							<xs:enumeration value="P2004" />
+							<xs:enumeration value="P2005" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_55</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_85_59 : Spaces with classification 'P2007' Should Have Uniclass Classification Classification With Value 'SL_42_85_59'" description="Spaces with classification 'P2007' Should Have Uniclass Classification Classification With Value 'SL_42_85_59'" identifier="4_05_15_SL_42_85_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P2007" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_85_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_55_64 : Spaces with classification 'P2008, P2009, P2010,+6 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_64'" description="Spaces with classification 'P2008, P2009, P2010,+6 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_64'" identifier="4_05_15_SL_40_55_64">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P2008" />
+							<xs:enumeration value="P2009" />
+							<xs:enumeration value="P2010" />
+							<xs:enumeration value="P2011" />
+							<xs:enumeration value="P4005" />
+							<xs:enumeration value="P4006" />
+							<xs:enumeration value="P4007" />
+							<xs:enumeration value="P5036" />
+							<xs:enumeration value="P5037" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_55_64</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_40_90 : Spaces with classification 'P2012, P4018, P5041,+1 more' Should Have Uniclass Classification Classification With Value 'SL_32_40_90'" description="Spaces with classification 'P2012, P4018, P5041,+1 more' Should Have Uniclass Classification Classification With Value 'SL_32_40_90'" identifier="4_05_15_SL_32_40_90">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P2012" />
+							<xs:enumeration value="P4018" />
+							<xs:enumeration value="P5041" />
+							<xs:enumeration value="P6014" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_40_90</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_97 : Spaces with classification 'P3001, P3004, P6017' Should Have Uniclass Classification Classification With Value 'SL_32_80_97'" description="Spaces with classification 'P3001, P3004, P6017' Should Have Uniclass Classification Classification With Value 'SL_32_80_97'" identifier="4_05_15_SL_32_80_97">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P3001" />
+							<xs:enumeration value="P3004" />
+							<xs:enumeration value="P6017" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_97</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_35_85_03 : Spaces with classification 'P3002' Should Have Uniclass Classification Classification With Value 'SL_35_85_03'" description="Spaces with classification 'P3002' Should Have Uniclass Classification Classification With Value 'SL_35_85_03'" identifier="4_05_15_SL_35_85_03">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P3002" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_85_03</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_48 : Spaces with classification 'P3003' Should Have Uniclass Classification Classification With Value 'SL_32_80_48'" description="Spaces with classification 'P3003' Should Have Uniclass Classification Classification With Value 'SL_32_80_48'" identifier="4_05_15_SL_32_80_48">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P3003" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_48</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_55_34 : Spaces with classification 'P4001, P4003, P4004,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_34'" description="Spaces with classification 'P4001, P4003, P4004,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_55_34'" identifier="4_05_15_SL_40_55_34">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4001" />
+							<xs:enumeration value="P4003" />
+							<xs:enumeration value="P4004" />
+							<xs:enumeration value="P5035" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_55_34</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_47 : Spaces with classification 'P4002' Should Have Uniclass Classification Classification With Value 'SL_32_80_47'" description="Spaces with classification 'P4002' Should Have Uniclass Classification Classification With Value 'SL_32_80_47'" identifier="4_05_15_SL_32_80_47">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4002" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_47</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_40_05_79 : Spaces with classification 'P4008, P4009, P4011,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_05_79'" description="Spaces with classification 'P4008, P4009, P4011,+1 more' Should Have Uniclass Classification Classification With Value 'SL_40_05_79'" identifier="4_05_15_SL_40_05_79">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4008" />
+							<xs:enumeration value="P4009" />
+							<xs:enumeration value="P4011" />
+							<xs:enumeration value="P4013" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_40_05_79</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_35_04 : Spaces with classification 'P4010, P4014, P4015' Should Have Uniclass Classification Classification With Value 'SL_32_35_04'" description="Spaces with classification 'P4010, P4014, P4015' Should Have Uniclass Classification Classification With Value 'SL_32_35_04'" identifier="4_05_15_SL_32_35_04">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4010" />
+							<xs:enumeration value="P4014" />
+							<xs:enumeration value="P4015" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_35_04</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_10_37 : Spaces with classification 'P4017, P5042, P6015' Should Have Uniclass Classification Classification With Value 'SL_32_10_37'" description="Spaces with classification 'P4017, P5042, P6015' Should Have Uniclass Classification Classification With Value 'SL_32_10_37'" identifier="4_05_15_SL_32_10_37">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4017" />
+							<xs:enumeration value="P5042" />
+							<xs:enumeration value="P6015" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_10_37</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_35_30 : Spaces with classification 'P4019, P4020' Should Have Uniclass Classification Classification With Value 'SL_32_35_30'" description="Spaces with classification 'P4019, P4020' Should Have Uniclass Classification Classification With Value 'SL_32_35_30'" identifier="4_05_15_SL_32_35_30">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4019" />
+							<xs:enumeration value="P4020" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_35_30</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_50_35_08 : Spaces with classification 'P4021, P5043' Should Have Uniclass Classification Classification With Value 'SL_50_35_08'" description="Spaces with classification 'P4021, P5043' Should Have Uniclass Classification Classification With Value 'SL_50_35_08'" identifier="4_05_15_SL_50_35_08">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P4021" />
+							<xs:enumeration value="P5043" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_50_35_08</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_60 : Spaces with classification 'P5001, P5003, P5004,+24 more' Should Have Uniclass Classification Classification With Value 'SL_42_15_60'" description="Spaces with classification 'P5001, P5003, P5004,+24 more' Should Have Uniclass Classification Classification With Value 'SL_42_15_60'" identifier="4_05_15_SL_42_15_60">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5001" />
+							<xs:enumeration value="P5003" />
+							<xs:enumeration value="P5004" />
+							<xs:enumeration value="P5005" />
+							<xs:enumeration value="P5006" />
+							<xs:enumeration value="P5007" />
+							<xs:enumeration value="P5008" />
+							<xs:enumeration value="P5009" />
+							<xs:enumeration value="P5010" />
+							<xs:enumeration value="P5011" />
+							<xs:enumeration value="P5012" />
+							<xs:enumeration value="P5013" />
+							<xs:enumeration value="P5014" />
+							<xs:enumeration value="P5015" />
+							<xs:enumeration value="P5016" />
+							<xs:enumeration value="P5017" />
+							<xs:enumeration value="P5018" />
+							<xs:enumeration value="P5019" />
+							<xs:enumeration value="P5020" />
+							<xs:enumeration value="P5021" />
+							<xs:enumeration value="P5022" />
+							<xs:enumeration value="P5023" />
+							<xs:enumeration value="P5024" />
+							<xs:enumeration value="P5025" />
+							<xs:enumeration value="P5032" />
+							<xs:enumeration value="P5033" />
+							<xs:enumeration value="P5034" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_60</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_03 : Spaces with classification 'P5002' Should Have Uniclass Classification Classification With Value 'SL_32_80_03'" description="Spaces with classification 'P5002' Should Have Uniclass Classification Classification With Value 'SL_32_80_03'" identifier="4_05_15_SL_32_80_03">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5002" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_03</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_32 : Spaces with classification 'P5026, P5027, P5028' Should Have Uniclass Classification Classification With Value 'SL_42_15_32'" description="Spaces with classification 'P5026, P5027, P5028' Should Have Uniclass Classification Classification With Value 'SL_42_15_32'" identifier="4_05_15_SL_42_15_32">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5026" />
+							<xs:enumeration value="P5027" />
+							<xs:enumeration value="P5028" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_32</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_37 : Spaces with classification 'P5029' Should Have Uniclass Classification Classification With Value 'SL_42_15_37'" description="Spaces with classification 'P5029' Should Have Uniclass Classification Classification With Value 'SL_42_15_37'" identifier="4_05_15_SL_42_15_37">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5029" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_37</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_47 : Spaces with classification 'P5030' Should Have Uniclass Classification Classification With Value 'SL_42_15_47'" description="Spaces with classification 'P5030' Should Have Uniclass Classification Classification With Value 'SL_42_15_47'" identifier="4_05_15_SL_42_15_47">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5030" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_47</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_15_78 : Spaces with classification 'P5031' Should Have Uniclass Classification Classification With Value 'SL_42_15_78'" description="Spaces with classification 'P5031' Should Have Uniclass Classification Classification With Value 'SL_42_15_78'" identifier="4_05_15_SL_42_15_78">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5031" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_15_78</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_55_90 : Spaces with classification 'P5038, P5040' Should Have Uniclass Classification Classification With Value 'SL_42_55_90'" description="Spaces with classification 'P5038, P5040' Should Have Uniclass Classification Classification With Value 'SL_42_55_90'" identifier="4_05_15_SL_42_55_90">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5038" />
+							<xs:enumeration value="P5040" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_55_90</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_42_55_56 : Spaces with classification 'P5039' Should Have Uniclass Classification Classification With Value 'SL_42_55_56'" description="Spaces with classification 'P5039' Should Have Uniclass Classification Classification With Value 'SL_42_55_56'" identifier="4_05_15_SL_42_55_56">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P5039" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_42_55_56</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_35_20 : Spaces with classification 'P6004' Should Have Uniclass Classification Classification With Value 'SL_80_35_20'" description="Spaces with classification 'P6004' Should Have Uniclass Classification Classification With Value 'SL_80_35_20'" identifier="4_05_15_SL_80_35_20">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6004" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_35_20</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_35_74 : Spaces with classification 'P6005' Should Have Uniclass Classification Classification With Value 'SL_80_35_74'" description="Spaces with classification 'P6005' Should Have Uniclass Classification Classification With Value 'SL_80_35_74'" identifier="4_05_15_SL_80_35_74">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6005" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_35_74</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_10_94 : Spaces with classification 'P6006' Should Have Uniclass Classification Classification With Value 'SL_80_10_94'" description="Spaces with classification 'P6006' Should Have Uniclass Classification Classification With Value 'SL_80_10_94'" identifier="4_05_15_SL_80_10_94">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6006" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_10_94</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_45_59 : Spaces with classification 'P6007' Should Have Uniclass Classification Classification With Value 'SL_80_45_59'" description="Spaces with classification 'P6007' Should Have Uniclass Classification Classification With Value 'SL_80_45_59'" identifier="4_05_15_SL_80_45_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6007" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_45_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_45_01 : Spaces with classification 'P6008' Should Have Uniclass Classification Classification With Value 'SL_80_45_01'" description="Spaces with classification 'P6008' Should Have Uniclass Classification Classification With Value 'SL_80_45_01'" identifier="4_05_15_SL_80_45_01">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6008" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_45_01</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_80_45_15 : Spaces with classification 'P6009' Should Have Uniclass Classification Classification With Value 'SL_80_45_15'" description="Spaces with classification 'P6009' Should Have Uniclass Classification Classification With Value 'SL_80_45_15'" identifier="4_05_15_SL_80_45_15">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6009" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_80_45_15</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_50_40_72 : Spaces with classification 'P6011' Should Have Uniclass Classification Classification With Value 'SL_50_40_72'" description="Spaces with classification 'P6011' Should Have Uniclass Classification Classification With Value 'SL_50_40_72'" identifier="4_05_15_SL_50_40_72">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6011" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_50_40_72</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_90_90_63 : Spaces with classification 'P6012' Should Have Uniclass Classification Classification With Value 'SL_90_90_63'" description="Spaces with classification 'P6012' Should Have Uniclass Classification Classification With Value 'SL_90_90_63'" identifier="4_05_15_SL_90_90_63">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6012" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_90_90_63</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_46 : Spaces with classification 'P6013' Should Have Uniclass Classification Classification With Value 'SL_32_80_46'" description="Spaces with classification 'P6013' Should Have Uniclass Classification Classification With Value 'SL_32_80_46'" identifier="4_05_15_SL_32_80_46">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6013" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_46</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_15_SL_32_80_95 : Spaces with classification 'P6016' Should Have Uniclass Classification Classification With Value 'SL_32_80_95'" description="Spaces with classification 'P6016' Should Have Uniclass Classification Classification With Value 'SL_32_80_95'" identifier="4_05_15_SL_32_80_95">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="P6016" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_32_80_95</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

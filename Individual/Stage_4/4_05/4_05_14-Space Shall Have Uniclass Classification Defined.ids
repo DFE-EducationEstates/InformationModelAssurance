@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>4_05_14 : Space Shall Have Uniclass Classification Defined</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_14 : Space Shall Have Uniclass Classification Defined" description="Space Shall Have Uniclass Classification Defined" identifier="4_05_14">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="SL_25_10_57" />
+							<xs:enumeration value="SL_25_10_72" />
+							<xs:enumeration value="SL_25_10_14" />
+							<xs:enumeration value="SL_25_10_67" />
+							<xs:enumeration value="SL_25_10_78" />
+							<xs:enumeration value="SL_25_10_30" />
+							<xs:enumeration value="SL_25_10_55" />
+							<xs:enumeration value="SL_25_40_22" />
+							<xs:enumeration value="SL_25_40_23" />
+							<xs:enumeration value="SL_25_10_04" />
+							<xs:enumeration value="SL_25_10_41" />
+							<xs:enumeration value="SL_25_10_75" />
+							<xs:enumeration value="SL_25_40_65" />
+							<xs:enumeration value="SL_25_10_74" />
+							<xs:enumeration value="SL_42_40_30" />
+							<xs:enumeration value="SL_25_10_54" />
+							<xs:enumeration value="SL_25_10_24" />
+							<xs:enumeration value="SL_90_20_80" />
+							<xs:enumeration value="SL_25_40_42" />
+							<xs:enumeration value="SL_42_40_82" />
+							<xs:enumeration value="SL_42_40_35" />
+							<xs:enumeration value="SL_25_10_01" />
+							<xs:enumeration value="SL_25_10_21" />
+							<xs:enumeration value="SL_40_20_22" />
+							<xs:enumeration value="SL_40_20_43" />
+							<xs:enumeration value="SL_25_10_05" />
+							<xs:enumeration value="SL_25_75_80" />
+							<xs:enumeration value="SL_25_10_84" />
+							<xs:enumeration value="SL_30_50_40" />
+							<xs:enumeration value="SL_35_10_15" />
+							<xs:enumeration value="SL_35_10_88" />
+							<xs:enumeration value="SL_40_05_81" />
+							<xs:enumeration value="SL_35_50_78" />
+							<xs:enumeration value="SL_35_10_66" />
+							<xs:enumeration value="SL_35_10_58" />
+							<xs:enumeration value="SL_35_50_69" />
+							<xs:enumeration value="SL_25_75_55" />
+							<xs:enumeration value="SL_40_60_78" />
+							<xs:enumeration value="SL_25_75_76" />
+							<xs:enumeration value="SL_25_75_45" />
+							<xs:enumeration value="SL_25_75_82" />
+							<xs:enumeration value="SL_20_65_42" />
+							<xs:enumeration value="SL_20_15_59" />
+							<xs:enumeration value="SL_35_10_31" />
+							<xs:enumeration value="SL_20_15_73" />
+							<xs:enumeration value="SL_90_20_86" />
+							<xs:enumeration value="SL_35_60_45" />
+							<xs:enumeration value="SL_90_20_85" />
+							<xs:enumeration value="SL_25_70_13" />
+							<xs:enumeration value="SL_35_50_60" />
+							<xs:enumeration value="SL_90_50_35" />
+							<xs:enumeration value="SL_90_50_87" />
+							<xs:enumeration value="SL_90_20_14" />
+							<xs:enumeration value="SL_25_80_22" />
+							<xs:enumeration value="SL_25_80_75" />
+							<xs:enumeration value="SL_90_50_13" />
+							<xs:enumeration value="SL_90_50_82" />
+							<xs:enumeration value="SL_90_50_73" />
+							<xs:enumeration value="SL_35_60_78" />
+							<xs:enumeration value="SL_90_50_22" />
+							<xs:enumeration value="SL_90_50_77" />
+							<xs:enumeration value="SL_90_50_16" />
+							<xs:enumeration value="SL_90_50_10" />
+							<xs:enumeration value="SL_20_15_71" />
+							<xs:enumeration value="SL_90_10_15" />
+							<xs:enumeration value="SL_90_10_51" />
+							<xs:enumeration value="SL_35_80_89" />
+							<xs:enumeration value="SL_35_80_39" />
+							<xs:enumeration value="SL_90_90_64" />
+							<xs:enumeration value="SL_35_60_14" />
+							<xs:enumeration value="SL_90_10_87" />
+							<xs:enumeration value="SL_20_90_25" />
+							<xs:enumeration value="SL_90_10_47" />
+							<xs:enumeration value="SL_30_60_47" />
+							<xs:enumeration value="SL_90_20_13" />
+							<xs:enumeration value="SL_35_80_03" />
+							<xs:enumeration value="SL_35_80_00" />
+							<xs:enumeration value="SL_35_80_80" />
+							<xs:enumeration value="SL_35_80_01" />
+							<xs:enumeration value="SL_90_90_78" />
+							<xs:enumeration value="SL_90_90_77" />
+							<xs:enumeration value="SL_75_10_21" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="SL_40_55_36" />
+							<xs:enumeration value="SL_25_10_60" />
+							<xs:enumeration value="SL_40_20_59" />
+							<xs:enumeration value="SL_80_35_63" />
+							<xs:enumeration value="SL_25_40_61" />
+							<xs:enumeration value="SL_40_55_59" />
+							<xs:enumeration value="SL_90_50_84" />
+							<xs:enumeration value="SL_40_55_61" />
+							<xs:enumeration value="SL_42_15_55" />
+							<xs:enumeration value="SL_42_85_59" />
+							<xs:enumeration value="SL_40_55_64" />
+							<xs:enumeration value="SL_32_40_90" />
+							<xs:enumeration value="SL_32_80_97" />
+							<xs:enumeration value="SL_35_85_03" />
+							<xs:enumeration value="SL_32_80_48" />
+							<xs:enumeration value="SL_40_55_34" />
+							<xs:enumeration value="SL_32_80_47" />
+							<xs:enumeration value="SL_40_05_79" />
+							<xs:enumeration value="SL_32_35_04" />
+							<xs:enumeration value="SL_32_10_37" />
+							<xs:enumeration value="SL_32_35_30" />
+							<xs:enumeration value="SL_50_35_08" />
+							<xs:enumeration value="SL_42_15_60" />
+							<xs:enumeration value="SL_32_80_03" />
+							<xs:enumeration value="SL_42_15_32" />
+							<xs:enumeration value="SL_42_15_37" />
+							<xs:enumeration value="SL_42_15_47" />
+							<xs:enumeration value="SL_42_15_78" />
+							<xs:enumeration value="SL_42_55_90" />
+							<xs:enumeration value="SL_42_55_56" />
+							<xs:enumeration value="SL_80_35_20" />
+							<xs:enumeration value="SL_80_35_74" />
+							<xs:enumeration value="SL_80_10_94" />
+							<xs:enumeration value="SL_80_45_59" />
+							<xs:enumeration value="SL_80_45_01" />
+							<xs:enumeration value="SL_80_45_15" />
+							<xs:enumeration value="SL_50_40_72" />
+							<xs:enumeration value="SL_90_90_63" />
+							<xs:enumeration value="SL_32_80_46" />
+							<xs:enumeration value="SL_32_80_95" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

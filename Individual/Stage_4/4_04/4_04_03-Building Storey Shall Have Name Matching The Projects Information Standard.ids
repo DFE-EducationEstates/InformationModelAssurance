@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>4_04_03 : Building Storey Shall Have Name Matching The Projects Information Standard</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_04_03 : Building Storey Shall Have Name Matching The Projects Information Standard" description="Building Storey Shall Have Name Matching The Projects Information Standard" identifier="4_04_03">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGSTOREY" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Level B2" />
+							<xs:enumeration value="Level B1" />
+							<xs:enumeration value="Level 00" />
+							<xs:enumeration value="Level M0" />
+							<xs:enumeration value="Level 01" />
+							<xs:enumeration value="Level M1" />
+							<xs:enumeration value="Level 02" />
+							<xs:enumeration value="Level 03" />
+							<xs:enumeration value="Level 04" />
+							<xs:enumeration value="Level RF" />
+							<xs:enumeration value="Level R2" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

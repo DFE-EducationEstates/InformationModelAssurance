@@ -1,0 +1,14 @@
+# General Python residue
+__pycache__
+*.py.bak
+venv/
+.venv 
+
+# Visual Studio Code files
+.vscode
+!.vscode/launch.json
+!.vscode/tasks.json
+.vs
+
+# PDF to Markdown
+DFE/ConvertPDFtoMD

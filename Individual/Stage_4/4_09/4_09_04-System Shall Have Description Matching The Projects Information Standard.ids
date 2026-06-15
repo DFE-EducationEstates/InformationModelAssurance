@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>4_09_04 : System Shall Have Description Matching The Projects Information Standard</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_09_04 : System Shall Have Description Matching The Projects Information Standard" description="System Shall Have Description Matching The Projects Information Standard" identifier="4_09_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSYSTEM</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Conditioned air distribution system for purposes of maintaining a temperature range within one or more spaces" />
+							<xs:enumeration value="A transport of a single media source, having audio and/or video streams" />
+							<xs:enumeration value="A longitudinal distribution system that supports contact wires, including catenary wire droppers and stich wires" />
+							<xs:enumeration value="Arbitrary chemical further qualified by property set, such as for medical or industrial use" />
+							<xs:enumeration value="Nonpotable chilled water, such as circulated through an evaporator" />
+							<xs:enumeration value="Communication system" />
+							<xs:enumeration value="Compressed air system" />
+							<xs:enumeration value="Nonpotable water, such as circulated through a condenser" />
+							<xs:enumeration value="A transport or network dedicated to control system usage" />
+							<xs:enumeration value="Arbitrary supply of substances" />
+							<xs:enumeration value="A network having general-purpose usage" />
+							<xs:enumeration value="Arbitrary disposal of substances" />
+							<xs:enumeration value="Unheated potable water distribution system" />
+							<xs:enumeration value="Heated potable water distribution system" />
+							<xs:enumeration value="Drainage collection system" />
+							<xs:enumeration value="A path for equipotential bonding, conducting current to the ground" />
+							<xs:enumeration value="A circuit for delivering electrical power" />
+							<xs:enumeration value="An amplified audio signal such as for loudspeakers" />
+							<xs:enumeration value="Exhaust air collection system for removing stale or noxious air from one or more spaces" />
+							<xs:enumeration value="Fire protection sprinkler system" />
+							<xs:enumeration value="Represents all wired networks that provide a data transmission channel using optical fibre cables, copper cables or both. It aggregates many technologies that are based on the multiplexing method" />
+							<xs:enumeration value="Arbitrary supply of fuel" />
+							<xs:enumeration value="Gas-phase materials such as methane or natural gas" />
+							<xs:enumeration value="Hazardous material or fluid collection system" />
+							<xs:enumeration value="Water or steam heated from a boiler and circulated through radiators" />
+							<xs:enumeration value="A circuit dedicated for lighting, such as a fixture having sockets for lamps" />
+							<xs:enumeration value="A path for conducting lightning current to the ground" />
+							<xs:enumeration value="Mobile network insures wireless communication by providing a secure platform for voice and data communication between infrastructure operators, including drivers, dispatchers, shunting team members and station controllers" />
+							<xs:enumeration value="Sensor-based system for building and infrastructure environmental monitoring and control" />
+							<xs:enumeration value="Items consumed and discarded, commonly known as trash or garbage" />
+							<xs:enumeration value="Oil distribution system" />
+							<xs:enumeration value="Operating supplies system" />
+							<xs:enumeration value="A system that allows communications between operators (e.g. switchtender, traffic regulator, operational agents, etc) in operational centres and on the infrastructure site (e.g. railway, tunnel or road)" />
+							<xs:enumeration value="An overhead contact line system above the upper limit of the train using an overhead contact line and a catenary system to supply current to traction units" />
+							<xs:enumeration value="A path for power generation" />
+							<xs:enumeration value="Rainwater resulting from precipitation which directly falls on a parcel" />
+							<xs:enumeration value="Refrigerant distribution system for purposes of fulfilling all or parts of a refrigeration cycle" />
+							<xs:enumeration value="A distribution system which forms the intended path for the traction return current and the current under fault conditions" />
+							<xs:enumeration value="A transport or network dedicated to security system usage" />
+							<xs:enumeration value="Sewage collection system" />
+							<xs:enumeration value="A raw analogue signal, such as modulated data or measurements from sensors" />
+							<xs:enumeration value="Stormwater resulting from precipitation which runs off or travels over the ground surface" />
+							<xs:enumeration value="A transport or network dedicated to telephone system usage" />
+							<xs:enumeration value="A transport of multiple media sources such as analog cable TV, satellite TV, or over-the-air TV" />
+							<xs:enumeration value="Vacuum distribution system" />
+							<xs:enumeration value="Vent system for wastewater piping systems" />
+							<xs:enumeration value="Ventilation air distribution system involved in either the exchange of air to the outside as well as circulation of air within a building" />
+							<xs:enumeration value="Water adversely affected in quality by anthropogenic influence, possibly originating from sewage, drainage, or other source" />
+							<xs:enumeration value="Arbitrary water supply" />
+							<xs:enumeration value="Other user defined system" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

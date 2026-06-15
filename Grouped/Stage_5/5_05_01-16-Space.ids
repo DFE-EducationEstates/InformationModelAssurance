@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_05_01-16-Space</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Grouped</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_05_01-16-Space (15 requirements)" description="Space Shall Have GlobalId Defined, and Shall Have Name Defined, and Shall Have Name Matching Format Set Out In The Projects Information Standard, and Shall Have Description Defined, and Shall Not Have RoomTag That Is 'n/a' or Empty, and Shall Not Have RoomTag That Is 'n/a' or Empty, and Shall Have DfE Classification Defined, and Shall Have DfE Classification Matching The Employers Requirements, and Shall Have ClearHeight Defined In BaseQuantities, and Should Have Height Defined In BaseQuantities, and Should Have FinishCeilingHeight Defined In Additional_Pset_SpaceCommon, and Shall Have GrossFloorArea Defined, and Shall Have NetFloorArea Defined, and Shall Have Uniclass Classification Defined, and Shall Be Allocated To A Zone" instructions="" identifier="5_05_01,5_05_02,5_05_03,5_05_06,5_05_08_01,5_05_08_02,5_05_09,5_05_10,5_05_11_01,5_05_11_02,5_05_11_03,5_05_12,5_05_13,5_05_14,5_05_16">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="((EX|00|01|02|03|RF|R2|ZZ|M0|M1|B1|B2)-)?[0-9]+[A-Za-z]?" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Space</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>RoomTag</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Space</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>RoomTag</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:classification cardinality="required">
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S1001" />
+							<xs:enumeration value="S1002" />
+							<xs:enumeration value="S1003" />
+							<xs:enumeration value="S1004" />
+							<xs:enumeration value="S1005" />
+							<xs:enumeration value="S1006" />
+							<xs:enumeration value="S1007" />
+							<xs:enumeration value="S1008" />
+							<xs:enumeration value="S1009" />
+							<xs:enumeration value="S1010" />
+							<xs:enumeration value="S1011" />
+							<xs:enumeration value="S1012" />
+							<xs:enumeration value="S1013" />
+							<xs:enumeration value="S1014" />
+							<xs:enumeration value="S1015" />
+							<xs:enumeration value="S1016" />
+							<xs:enumeration value="S1017" />
+							<xs:enumeration value="S1018" />
+							<xs:enumeration value="S1019" />
+							<xs:enumeration value="S1020" />
+							<xs:enumeration value="S1021" />
+							<xs:enumeration value="S1022" />
+							<xs:enumeration value="S1023" />
+							<xs:enumeration value="S1024" />
+							<xs:enumeration value="S1025" />
+							<xs:enumeration value="S1026" />
+							<xs:enumeration value="S1027" />
+							<xs:enumeration value="S1028" />
+							<xs:enumeration value="S1029" />
+							<xs:enumeration value="S1030" />
+							<xs:enumeration value="S1031" />
+							<xs:enumeration value="S1032" />
+							<xs:enumeration value="S1033" />
+							<xs:enumeration value="S1034" />
+							<xs:enumeration value="S1035" />
+							<xs:enumeration value="S1036" />
+							<xs:enumeration value="S1037" />
+							<xs:enumeration value="S1038" />
+							<xs:enumeration value="S1039" />
+							<xs:enumeration value="S1040" />
+							<xs:enumeration value="S1041" />
+							<xs:enumeration value="S1042" />
+							<xs:enumeration value="S1043" />
+							<xs:enumeration value="S1044" />
+							<xs:enumeration value="S1045" />
+							<xs:enumeration value="S1046" />
+							<xs:enumeration value="S1047" />
+							<xs:enumeration value="S1048" />
+							<xs:enumeration value="S1049" />
+							<xs:enumeration value="S2001" />
+							<xs:enumeration value="S2002" />
+							<xs:enumeration value="S2003" />
+							<xs:enumeration value="S2004" />
+							<xs:enumeration value="S2005" />
+							<xs:enumeration value="S2006" />
+							<xs:enumeration value="S2007" />
+							<xs:enumeration value="S2008" />
+							<xs:enumeration value="S2009" />
+							<xs:enumeration value="S2010" />
+							<xs:enumeration value="S2011" />
+							<xs:enumeration value="S2012" />
+							<xs:enumeration value="S2013" />
+							<xs:enumeration value="S2014" />
+							<xs:enumeration value="S2015" />
+							<xs:enumeration value="S2016" />
+							<xs:enumeration value="S2017" />
+							<xs:enumeration value="S2018" />
+							<xs:enumeration value="S2019" />
+							<xs:enumeration value="S2020" />
+							<xs:enumeration value="S2021" />
+							<xs:enumeration value="S2022" />
+							<xs:enumeration value="S2023" />
+							<xs:enumeration value="S2024" />
+							<xs:enumeration value="S2025" />
+							<xs:enumeration value="S2026" />
+							<xs:enumeration value="S2027" />
+							<xs:enumeration value="S2028" />
+							<xs:enumeration value="S2029" />
+							<xs:enumeration value="S2030" />
+							<xs:enumeration value="S2031" />
+							<xs:enumeration value="S2032" />
+							<xs:enumeration value="S2033" />
+							<xs:enumeration value="S2034" />
+							<xs:enumeration value="S2035" />
+							<xs:enumeration value="S2036" />
+							<xs:enumeration value="S2037" />
+							<xs:enumeration value="S2038" />
+							<xs:enumeration value="S2039" />
+							<xs:enumeration value="S2040" />
+							<xs:enumeration value="S2041" />
+							<xs:enumeration value="S2042" />
+							<xs:enumeration value="S2043" />
+							<xs:enumeration value="S2044" />
+							<xs:enumeration value="S2045" />
+							<xs:enumeration value="S2046" />
+							<xs:enumeration value="S2047" />
+							<xs:enumeration value="S2048" />
+							<xs:enumeration value="S2049" />
+							<xs:enumeration value="S2050" />
+							<xs:enumeration value="S2051" />
+							<xs:enumeration value="S2052" />
+							<xs:enumeration value="S2053" />
+							<xs:enumeration value="S2054" />
+							<xs:enumeration value="S2055" />
+							<xs:enumeration value="S2056" />
+							<xs:enumeration value="S2057" />
+							<xs:enumeration value="S2058" />
+							<xs:enumeration value="S2059" />
+							<xs:enumeration value="S2060" />
+							<xs:enumeration value="S2061" />
+							<xs:enumeration value="S2062" />
+							<xs:enumeration value="S2063" />
+							<xs:enumeration value="S2064" />
+							<xs:enumeration value="S3001" />
+							<xs:enumeration value="S3002" />
+							<xs:enumeration value="S3003" />
+							<xs:enumeration value="S3004" />
+							<xs:enumeration value="S3005" />
+							<xs:enumeration value="S3006" />
+							<xs:enumeration value="S3007" />
+							<xs:enumeration value="S3008" />
+							<xs:enumeration value="S3009" />
+							<xs:enumeration value="S3010" />
+							<xs:enumeration value="S3011" />
+							<xs:enumeration value="S3012" />
+							<xs:enumeration value="S3013" />
+							<xs:enumeration value="S3014" />
+							<xs:enumeration value="S3015" />
+							<xs:enumeration value="S3016" />
+							<xs:enumeration value="S3017" />
+							<xs:enumeration value="S3018" />
+							<xs:enumeration value="S3019" />
+							<xs:enumeration value="S3020" />
+							<xs:enumeration value="S3021" />
+							<xs:enumeration value="S3022" />
+							<xs:enumeration value="S3023" />
+							<xs:enumeration value="S3024" />
+							<xs:enumeration value="S3025" />
+							<xs:enumeration value="S3026" />
+							<xs:enumeration value="S3027" />
+							<xs:enumeration value="S3028" />
+							<xs:enumeration value="S3029" />
+							<xs:enumeration value="S3030" />
+							<xs:enumeration value="S3031" />
+							<xs:enumeration value="S3032" />
+							<xs:enumeration value="S3033" />
+							<xs:enumeration value="S3034" />
+							<xs:enumeration value="S3035" />
+							<xs:enumeration value="S3036" />
+							<xs:enumeration value="S3037" />
+							<xs:enumeration value="S3038" />
+							<xs:enumeration value="S3039" />
+							<xs:enumeration value="S3040" />
+							<xs:enumeration value="S3041" />
+							<xs:enumeration value="S3042" />
+							<xs:enumeration value="S3043" />
+							<xs:enumeration value="S3044" />
+							<xs:enumeration value="S3045" />
+							<xs:enumeration value="S3046" />
+							<xs:enumeration value="S3047" />
+							<xs:enumeration value="S3048" />
+							<xs:enumeration value="S3049" />
+							<xs:enumeration value="S3050" />
+							<xs:enumeration value="S3051" />
+							<xs:enumeration value="S3052" />
+							<xs:enumeration value="S3053" />
+							<xs:enumeration value="S3054" />
+							<xs:enumeration value="S3055" />
+							<xs:enumeration value="S3056" />
+							<xs:enumeration value="S3057" />
+							<xs:enumeration value="S3058" />
+							<xs:enumeration value="S3059" />
+							<xs:enumeration value="S3060" />
+							<xs:enumeration value="S4001" />
+							<xs:enumeration value="S4002" />
+							<xs:enumeration value="S4003" />
+							<xs:enumeration value="S4004" />
+							<xs:enumeration value="S4005" />
+							<xs:enumeration value="S4006" />
+							<xs:enumeration value="S4007" />
+							<xs:enumeration value="S4008" />
+							<xs:enumeration value="S4009" />
+							<xs:enumeration value="S4010" />
+							<xs:enumeration value="S4011" />
+							<xs:enumeration value="S4012" />
+							<xs:enumeration value="S4013" />
+							<xs:enumeration value="S4014" />
+							<xs:enumeration value="S4015" />
+							<xs:enumeration value="S4016" />
+							<xs:enumeration value="S4017" />
+							<xs:enumeration value="S4018" />
+							<xs:enumeration value="S4019" />
+							<xs:enumeration value="S4020" />
+							<xs:enumeration value="S4021" />
+							<xs:enumeration value="S4022" />
+							<xs:enumeration value="S4023" />
+							<xs:enumeration value="S4024" />
+							<xs:enumeration value="S4025" />
+							<xs:enumeration value="S4026" />
+							<xs:enumeration value="S4027" />
+							<xs:enumeration value="S4028" />
+							<xs:enumeration value="S4029" />
+							<xs:enumeration value="S4030" />
+							<xs:enumeration value="S4031" />
+							<xs:enumeration value="S4032" />
+							<xs:enumeration value="S4033" />
+							<xs:enumeration value="S4034" />
+							<xs:enumeration value="S4035" />
+							<xs:enumeration value="S4036" />
+							<xs:enumeration value="S4037" />
+							<xs:enumeration value="S4038" />
+							<xs:enumeration value="S4039" />
+							<xs:enumeration value="S4040" />
+							<xs:enumeration value="S4041" />
+							<xs:enumeration value="S4042" />
+							<xs:enumeration value="S4043" />
+							<xs:enumeration value="S4044" />
+							<xs:enumeration value="S6001" />
+							<xs:enumeration value="S6002" />
+							<xs:enumeration value="S6003" />
+							<xs:enumeration value="S6004" />
+							<xs:enumeration value="S6005" />
+							<xs:enumeration value="S6006" />
+							<xs:enumeration value="S6007" />
+							<xs:enumeration value="S6008" />
+							<xs:enumeration value="S6009" />
+							<xs:enumeration value="S6010" />
+							<xs:enumeration value="S6011" />
+							<xs:enumeration value="S6012" />
+							<xs:enumeration value="S6013" />
+							<xs:enumeration value="S6014" />
+							<xs:enumeration value="S6015" />
+							<xs:enumeration value="S6016" />
+							<xs:enumeration value="S6017" />
+							<xs:enumeration value="S6018" />
+							<xs:enumeration value="S6019" />
+							<xs:enumeration value="S6020" />
+							<xs:enumeration value="S6021" />
+							<xs:enumeration value="S6022" />
+							<xs:enumeration value="S6023" />
+							<xs:enumeration value="S6024" />
+							<xs:enumeration value="S6025" />
+							<xs:enumeration value="S6026" />
+							<xs:enumeration value="S6027" />
+							<xs:enumeration value="S6028" />
+							<xs:enumeration value="S6029" />
+							<xs:enumeration value="S6030" />
+							<xs:enumeration value="S6031" />
+							<xs:enumeration value="S6032" />
+							<xs:enumeration value="S6033" />
+							<xs:enumeration value="S6034" />
+							<xs:enumeration value="S6035" />
+							<xs:enumeration value="S6036" />
+							<xs:enumeration value="S6037" />
+							<xs:enumeration value="S6038" />
+							<xs:enumeration value="S6039" />
+							<xs:enumeration value="S6040" />
+							<xs:enumeration value="S6041" />
+							<xs:enumeration value="S6042" />
+							<xs:enumeration value="S6043" />
+							<xs:enumeration value="S6044" />
+							<xs:enumeration value="S6045" />
+							<xs:enumeration value="S6046" />
+							<xs:enumeration value="S6047" />
+							<xs:enumeration value="S6048" />
+							<xs:enumeration value="S6049" />
+							<xs:enumeration value="S6050" />
+							<xs:enumeration value="S6051" />
+							<xs:enumeration value="S6052" />
+							<xs:enumeration value="S6053" />
+							<xs:enumeration value="S6054" />
+							<xs:enumeration value="S6055" />
+							<xs:enumeration value="S6056" />
+							<xs:enumeration value="S6057" />
+							<xs:enumeration value="S6058" />
+							<xs:enumeration value="S6059" />
+							<xs:enumeration value="S6060" />
+							<xs:enumeration value="S6061" />
+							<xs:enumeration value="S6062" />
+							<xs:enumeration value="S6063" />
+							<xs:enumeration value="S6064" />
+							<xs:enumeration value="S6065" />
+							<xs:enumeration value="S6066" />
+							<xs:enumeration value="S6067" />
+							<xs:enumeration value="S6068" />
+							<xs:enumeration value="S6069" />
+							<xs:enumeration value="S7001" />
+							<xs:enumeration value="S7002" />
+							<xs:enumeration value="S7003" />
+							<xs:enumeration value="S7004" />
+							<xs:enumeration value="S7005" />
+							<xs:enumeration value="S7006" />
+							<xs:enumeration value="S7007" />
+							<xs:enumeration value="S7008" />
+							<xs:enumeration value="S7009" />
+							<xs:enumeration value="S7010" />
+							<xs:enumeration value="S7011" />
+							<xs:enumeration value="S7012" />
+							<xs:enumeration value="S7013" />
+							<xs:enumeration value="S7014" />
+							<xs:enumeration value="S7015" />
+							<xs:enumeration value="S7016" />
+							<xs:enumeration value="S7017" />
+							<xs:enumeration value="S7018" />
+							<xs:enumeration value="S7019" />
+							<xs:enumeration value="S7020" />
+							<xs:enumeration value="S7021" />
+							<xs:enumeration value="S7022" />
+							<xs:enumeration value="S7023" />
+							<xs:enumeration value="S7024" />
+							<xs:enumeration value="S7025" />
+							<xs:enumeration value="S7026" />
+							<xs:enumeration value="S7027" />
+							<xs:enumeration value="S7028" />
+							<xs:enumeration value="S7029" />
+							<xs:enumeration value="S7030" />
+							<xs:enumeration value="S7031" />
+							<xs:enumeration value="S7032" />
+							<xs:enumeration value="S7033" />
+							<xs:enumeration value="S7034" />
+							<xs:enumeration value="S7035" />
+							<xs:enumeration value="S7036" />
+							<xs:enumeration value="S7037" />
+							<xs:enumeration value="S7038" />
+							<xs:enumeration value="S7039" />
+							<xs:enumeration value="S7040" />
+							<xs:enumeration value="S7041" />
+							<xs:enumeration value="S7042" />
+							<xs:enumeration value="S7043" />
+							<xs:enumeration value="S7044" />
+							<xs:enumeration value="S7045" />
+							<xs:enumeration value="S7046" />
+							<xs:enumeration value="S7047" />
+							<xs:enumeration value="S7048" />
+							<xs:enumeration value="S7049" />
+							<xs:enumeration value="S7050" />
+							<xs:enumeration value="S7051" />
+							<xs:enumeration value="S7052" />
+							<xs:enumeration value="S7053" />
+							<xs:enumeration value="S7054" />
+							<xs:enumeration value="S7055" />
+							<xs:enumeration value="S7056" />
+							<xs:enumeration value="S7057" />
+							<xs:enumeration value="S7058" />
+							<xs:enumeration value="S7059" />
+							<xs:enumeration value="S7060" />
+							<xs:enumeration value="S7061" />
+							<xs:enumeration value="S7062" />
+							<xs:enumeration value="S7063" />
+							<xs:enumeration value="S7064" />
+							<xs:enumeration value="S7065" />
+							<xs:enumeration value="S7066" />
+							<xs:enumeration value="S7067" />
+							<xs:enumeration value="S7068" />
+							<xs:enumeration value="S7069" />
+							<xs:enumeration value="S7070" />
+							<xs:enumeration value="S7071" />
+							<xs:enumeration value="S7072" />
+							<xs:enumeration value="S7073" />
+							<xs:enumeration value="S7074" />
+							<xs:enumeration value="S7075" />
+							<xs:enumeration value="S7076" />
+							<xs:enumeration value="S7077" />
+							<xs:enumeration value="S7078" />
+							<xs:enumeration value="S7079" />
+							<xs:enumeration value="S7080" />
+							<xs:enumeration value="S7081" />
+							<xs:enumeration value="S7082" />
+							<xs:enumeration value="S7083" />
+							<xs:enumeration value="S7084" />
+							<xs:enumeration value="S7085" />
+							<xs:enumeration value="S7086" />
+							<xs:enumeration value="S7087" />
+							<xs:enumeration value="S7088" />
+							<xs:enumeration value="S7089" />
+							<xs:enumeration value="S7090" />
+							<xs:enumeration value="S7091" />
+							<xs:enumeration value="S7092" />
+							<xs:enumeration value="S7093" />
+							<xs:enumeration value="S7094" />
+							<xs:enumeration value="S7095" />
+							<xs:enumeration value="S7096" />
+							<xs:enumeration value="S7097" />
+							<xs:enumeration value="S7098" />
+							<xs:enumeration value="S7099" />
+							<xs:enumeration value="S7100" />
+							<xs:enumeration value="S7101" />
+							<xs:enumeration value="S7102" />
+							<xs:enumeration value="S7103" />
+							<xs:enumeration value="S7104" />
+							<xs:enumeration value="S7105" />
+							<xs:enumeration value="S7106" />
+							<xs:enumeration value="S7107" />
+							<xs:enumeration value="S7108" />
+							<xs:enumeration value="S7109" />
+							<xs:enumeration value="S7110" />
+							<xs:enumeration value="S7111" />
+							<xs:enumeration value="S7112" />
+							<xs:enumeration value="S7501" />
+							<xs:enumeration value="P1001" />
+							<xs:enumeration value="P1002" />
+							<xs:enumeration value="P1003" />
+							<xs:enumeration value="P1004" />
+							<xs:enumeration value="P1005" />
+							<xs:enumeration value="P1006" />
+							<xs:enumeration value="P1007" />
+							<xs:enumeration value="P1008" />
+							<xs:enumeration value="P1009" />
+							<xs:enumeration value="P1010" />
+							<xs:enumeration value="P1011" />
+							<xs:enumeration value="P1012" />
+							<xs:enumeration value="P1013" />
+							<xs:enumeration value="P1014" />
+							<xs:enumeration value="P2001" />
+							<xs:enumeration value="P2002" />
+							<xs:enumeration value="P2003" />
+							<xs:enumeration value="P2004" />
+							<xs:enumeration value="P2005" />
+							<xs:enumeration value="P2006" />
+							<xs:enumeration value="P2007" />
+							<xs:enumeration value="P2008" />
+							<xs:enumeration value="P2009" />
+							<xs:enumeration value="P2010" />
+							<xs:enumeration value="P2011" />
+							<xs:enumeration value="P2012" />
+							<xs:enumeration value="P3001" />
+							<xs:enumeration value="P3002" />
+							<xs:enumeration value="P3003" />
+							<xs:enumeration value="P3004" />
+							<xs:enumeration value="P4001" />
+							<xs:enumeration value="P4002" />
+							<xs:enumeration value="P4003" />
+							<xs:enumeration value="P4004" />
+							<xs:enumeration value="P4005" />
+							<xs:enumeration value="P4006" />
+							<xs:enumeration value="P4007" />
+							<xs:enumeration value="P4008" />
+							<xs:enumeration value="P4009" />
+							<xs:enumeration value="P4010" />
+							<xs:enumeration value="P4011" />
+							<xs:enumeration value="P4012" />
+							<xs:enumeration value="P4013" />
+							<xs:enumeration value="P4014" />
+							<xs:enumeration value="P4015" />
+							<xs:enumeration value="P4016" />
+							<xs:enumeration value="P4017" />
+							<xs:enumeration value="P4018" />
+							<xs:enumeration value="P4019" />
+							<xs:enumeration value="P4020" />
+							<xs:enumeration value="P4021" />
+							<xs:enumeration value="P5001" />
+							<xs:enumeration value="P5002" />
+							<xs:enumeration value="P5003" />
+							<xs:enumeration value="P5004" />
+							<xs:enumeration value="P5005" />
+							<xs:enumeration value="P5006" />
+							<xs:enumeration value="P5007" />
+							<xs:enumeration value="P5008" />
+							<xs:enumeration value="P5009" />
+							<xs:enumeration value="P5010" />
+							<xs:enumeration value="P5011" />
+							<xs:enumeration value="P5012" />
+							<xs:enumeration value="P5013" />
+							<xs:enumeration value="P5014" />
+							<xs:enumeration value="P5015" />
+							<xs:enumeration value="P5016" />
+							<xs:enumeration value="P5017" />
+							<xs:enumeration value="P5018" />
+							<xs:enumeration value="P5019" />
+							<xs:enumeration value="P5020" />
+							<xs:enumeration value="P5021" />
+							<xs:enumeration value="P5022" />
+							<xs:enumeration value="P5023" />
+							<xs:enumeration value="P5024" />
+							<xs:enumeration value="P5025" />
+							<xs:enumeration value="P5026" />
+							<xs:enumeration value="P5027" />
+							<xs:enumeration value="P5028" />
+							<xs:enumeration value="P5029" />
+							<xs:enumeration value="P5030" />
+							<xs:enumeration value="P5031" />
+							<xs:enumeration value="P5032" />
+							<xs:enumeration value="P5033" />
+							<xs:enumeration value="P5034" />
+							<xs:enumeration value="P5035" />
+							<xs:enumeration value="P5036" />
+							<xs:enumeration value="P5037" />
+							<xs:enumeration value="P5038" />
+							<xs:enumeration value="P5039" />
+							<xs:enumeration value="P5040" />
+							<xs:enumeration value="P5041" />
+							<xs:enumeration value="P5042" />
+							<xs:enumeration value="P5043" />
+							<xs:enumeration value="P6001" />
+							<xs:enumeration value="P6002" />
+							<xs:enumeration value="P6003" />
+							<xs:enumeration value="P6004" />
+							<xs:enumeration value="P6005" />
+							<xs:enumeration value="P6006" />
+							<xs:enumeration value="P6007" />
+							<xs:enumeration value="P6008" />
+							<xs:enumeration value="P6009" />
+							<xs:enumeration value="P6010" />
+							<xs:enumeration value="P6011" />
+							<xs:enumeration value="P6012" />
+							<xs:enumeration value="P6013" />
+							<xs:enumeration value="P6014" />
+							<xs:enumeration value="P6015" />
+							<xs:enumeration value="P6016" />
+							<xs:enumeration value="P6017" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ClearHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>Height</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_SpaceCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>FinishCeilingHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCAREAMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>GrossFloorArea</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCAREAMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NetFloorArea</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="SL_25_10_57" />
+							<xs:enumeration value="SL_25_10_72" />
+							<xs:enumeration value="SL_25_10_14" />
+							<xs:enumeration value="SL_25_10_67" />
+							<xs:enumeration value="SL_25_10_78" />
+							<xs:enumeration value="SL_25_10_30" />
+							<xs:enumeration value="SL_25_10_55" />
+							<xs:enumeration value="SL_25_40_22" />
+							<xs:enumeration value="SL_25_40_23" />
+							<xs:enumeration value="SL_25_10_04" />
+							<xs:enumeration value="SL_25_10_41" />
+							<xs:enumeration value="SL_25_10_75" />
+							<xs:enumeration value="SL_25_40_65" />
+							<xs:enumeration value="SL_25_10_74" />
+							<xs:enumeration value="SL_42_40_30" />
+							<xs:enumeration value="SL_25_10_54" />
+							<xs:enumeration value="SL_25_10_24" />
+							<xs:enumeration value="SL_90_20_80" />
+							<xs:enumeration value="SL_25_40_42" />
+							<xs:enumeration value="SL_42_40_82" />
+							<xs:enumeration value="SL_42_40_35" />
+							<xs:enumeration value="SL_25_10_01" />
+							<xs:enumeration value="SL_25_10_21" />
+							<xs:enumeration value="SL_40_20_22" />
+							<xs:enumeration value="SL_40_20_43" />
+							<xs:enumeration value="SL_25_10_05" />
+							<xs:enumeration value="SL_25_75_80" />
+							<xs:enumeration value="SL_25_10_84" />
+							<xs:enumeration value="SL_30_50_40" />
+							<xs:enumeration value="SL_35_10_15" />
+							<xs:enumeration value="SL_35_10_88" />
+							<xs:enumeration value="SL_40_05_81" />
+							<xs:enumeration value="SL_35_50_78" />
+							<xs:enumeration value="SL_35_10_66" />
+							<xs:enumeration value="SL_35_10_58" />
+							<xs:enumeration value="SL_35_50_69" />
+							<xs:enumeration value="SL_25_75_55" />
+							<xs:enumeration value="SL_40_60_78" />
+							<xs:enumeration value="SL_25_75_76" />
+							<xs:enumeration value="SL_25_75_45" />
+							<xs:enumeration value="SL_25_75_82" />
+							<xs:enumeration value="SL_20_65_42" />
+							<xs:enumeration value="SL_20_15_59" />
+							<xs:enumeration value="SL_35_10_31" />
+							<xs:enumeration value="SL_20_15_73" />
+							<xs:enumeration value="SL_90_20_86" />
+							<xs:enumeration value="SL_35_60_45" />
+							<xs:enumeration value="SL_90_20_85" />
+							<xs:enumeration value="SL_25_70_13" />
+							<xs:enumeration value="SL_35_50_60" />
+							<xs:enumeration value="SL_90_50_35" />
+							<xs:enumeration value="SL_90_50_87" />
+							<xs:enumeration value="SL_90_20_14" />
+							<xs:enumeration value="SL_25_80_22" />
+							<xs:enumeration value="SL_25_80_75" />
+							<xs:enumeration value="SL_90_50_13" />
+							<xs:enumeration value="SL_90_50_82" />
+							<xs:enumeration value="SL_90_50_73" />
+							<xs:enumeration value="SL_35_60_78" />
+							<xs:enumeration value="SL_90_50_22" />
+							<xs:enumeration value="SL_90_50_77" />
+							<xs:enumeration value="SL_90_50_16" />
+							<xs:enumeration value="SL_90_50_10" />
+							<xs:enumeration value="SL_20_15_71" />
+							<xs:enumeration value="SL_90_10_15" />
+							<xs:enumeration value="SL_90_10_51" />
+							<xs:enumeration value="SL_35_80_89" />
+							<xs:enumeration value="SL_35_80_39" />
+							<xs:enumeration value="SL_90_90_64" />
+							<xs:enumeration value="SL_35_60_14" />
+							<xs:enumeration value="SL_90_10_87" />
+							<xs:enumeration value="SL_20_90_25" />
+							<xs:enumeration value="SL_90_10_47" />
+							<xs:enumeration value="SL_30_60_47" />
+							<xs:enumeration value="SL_90_20_13" />
+							<xs:enumeration value="SL_35_80_03" />
+							<xs:enumeration value="SL_35_80_00" />
+							<xs:enumeration value="SL_35_80_80" />
+							<xs:enumeration value="SL_35_80_01" />
+							<xs:enumeration value="SL_90_90_78" />
+							<xs:enumeration value="SL_90_90_77" />
+							<xs:enumeration value="SL_75_10_21" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="SL_40_55_36" />
+							<xs:enumeration value="SL_25_10_60" />
+							<xs:enumeration value="SL_40_20_59" />
+							<xs:enumeration value="SL_80_35_63" />
+							<xs:enumeration value="SL_25_40_61" />
+							<xs:enumeration value="SL_40_55_59" />
+							<xs:enumeration value="SL_90_50_84" />
+							<xs:enumeration value="SL_40_55_61" />
+							<xs:enumeration value="SL_42_15_55" />
+							<xs:enumeration value="SL_42_85_59" />
+							<xs:enumeration value="SL_40_55_64" />
+							<xs:enumeration value="SL_32_40_90" />
+							<xs:enumeration value="SL_32_80_97" />
+							<xs:enumeration value="SL_35_85_03" />
+							<xs:enumeration value="SL_32_80_48" />
+							<xs:enumeration value="SL_40_55_34" />
+							<xs:enumeration value="SL_32_80_47" />
+							<xs:enumeration value="SL_40_05_79" />
+							<xs:enumeration value="SL_32_35_04" />
+							<xs:enumeration value="SL_32_10_37" />
+							<xs:enumeration value="SL_32_35_30" />
+							<xs:enumeration value="SL_50_35_08" />
+							<xs:enumeration value="SL_42_15_60" />
+							<xs:enumeration value="SL_32_80_03" />
+							<xs:enumeration value="SL_42_15_32" />
+							<xs:enumeration value="SL_42_15_37" />
+							<xs:enumeration value="SL_42_15_47" />
+							<xs:enumeration value="SL_42_15_78" />
+							<xs:enumeration value="SL_42_55_90" />
+							<xs:enumeration value="SL_42_55_56" />
+							<xs:enumeration value="SL_80_35_20" />
+							<xs:enumeration value="SL_80_35_74" />
+							<xs:enumeration value="SL_80_10_94" />
+							<xs:enumeration value="SL_80_45_59" />
+							<xs:enumeration value="SL_80_45_01" />
+							<xs:enumeration value="SL_80_45_15" />
+							<xs:enumeration value="SL_50_40_72" />
+							<xs:enumeration value="SL_90_90_63" />
+							<xs:enumeration value="SL_32_80_46" />
+							<xs:enumeration value="SL_32_80_95" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+				<ids:partOf cardinality="required" relation="IFCRELASSIGNSTOGROUP">
+					<ids:entity>
+						<ids:name>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="IFCZONE" />
+							</xs:restriction>
+						</ids:name>
+					</ids:entity>
+				</ids:partOf>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

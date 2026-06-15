@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>4_07_21 : Object Type Shall Have WarrantyGuarantorLabor That Is Defined</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_21 : Object Type Shall Have WarrantyGuarantorLabor That Is Defined" description="Object Type Shall Have WarrantyGuarantorLabor That Is Defined" identifier="4_07_21">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORYTYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCMECHANICALFASTENERTYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Warranty</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyGuarantorLabor</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

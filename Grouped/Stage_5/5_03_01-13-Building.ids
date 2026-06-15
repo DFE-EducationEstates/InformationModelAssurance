@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_03_01-13-Building</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Grouped</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_03_01-13-Building (13 requirements)" description="Building Shall Have GlobalId Defined, and Shall Have Name Defined, and Shall Have Name Matching The Projects Information Standard, and Shall Have Description Defined, and Shall Have Description Matching The Projects Information Standard, and Shall Have Uniclass Classification Defined, and Shall Have Uniclass Classification Matching The Projects Information Standard, and Shall Have BlockConstructionType Defined, and Shall Have BlockConstructionType Matching The Projects Information Standard, and Shall Have MaximumBlockHeight Defined, and Shall Have NumberOfStoreys Defined, and Shall Have UPRN Defined, and Shall Have UPRN Matching The Projects Information Standard" instructions="" identifier="5_03_01,5_03_02,5_03_03,5_03_04,5_03_05,5_03_06,5_03_07,5_03_08,5_03_09,5_03_10,5_03_11,5_03_12,5_03_13">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>{{IfcBuildingName}}</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>{{IfcBuildingDescription}}</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="En.*" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>{{IfcBuildingClassificationReference}}</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>BlockConstructionType</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>BlockConstructionType</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<ids:simpleValue>{{BuildingBlockConstructionType}}</ids:simpleValue>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>MaximumBlockHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCINTEGER">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NumberOfStoreys</ids:simpleValue>
+					</ids:baseName>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_BuildingCommon_UK</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>UPRN</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_BuildingCommon_UK</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>UPRN</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<ids:simpleValue>{{IfcBuildingUPRN}}</ids:simpleValue>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

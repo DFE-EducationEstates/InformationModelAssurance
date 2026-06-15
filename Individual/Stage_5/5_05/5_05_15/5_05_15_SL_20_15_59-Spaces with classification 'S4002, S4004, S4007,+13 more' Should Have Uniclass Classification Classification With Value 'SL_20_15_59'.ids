@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_05_15_SL_20_15_59 : Spaces with classification 'S4002, S4004, S4007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_20_15_59'</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_05_15_SL_20_15_59 : Spaces with classification 'S4002, S4004, S4007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_20_15_59'" description="Spaces with classification 'S4002, S4004, S4007,+13 more' Should Have Uniclass Classification Classification With Value 'SL_20_15_59'" identifier="5_05_15_SL_20_15_59">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S4002" />
+							<xs:enumeration value="S4004" />
+							<xs:enumeration value="S4007" />
+							<xs:enumeration value="S4010" />
+							<xs:enumeration value="S4013" />
+							<xs:enumeration value="S4014" />
+							<xs:enumeration value="S4015" />
+							<xs:enumeration value="S4020" />
+							<xs:enumeration value="S4021" />
+							<xs:enumeration value="S4022" />
+							<xs:enumeration value="S4023" />
+							<xs:enumeration value="S4024" />
+							<xs:enumeration value="S4025" />
+							<xs:enumeration value="S4026" />
+							<xs:enumeration value="S4027" />
+							<xs:enumeration value="S4034" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_20_15_59</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

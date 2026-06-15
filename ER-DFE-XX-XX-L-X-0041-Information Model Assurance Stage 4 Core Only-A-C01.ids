@@ -1,0 +1,1732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>Information Model Assurance Stage 4: Core Only</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Core Only</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 4 : Technical Design</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="4_01_01 : Project Shall Have GlobalId Defined" description="Project Shall Have GlobalId Defined" identifier="4_01_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCPROJECT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_01_02 : Project Shall Have Name Defined" description="Project Shall Have Name Defined" identifier="4_01_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCPROJECT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_01_04 : Project Shall Have Description Defined" description="Project Shall Have Description Defined" identifier="4_01_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCPROJECT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_01_06 : Project Shall Have Phase Defined" description="Project Shall Have Phase Defined" identifier="4_01_06">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCPROJECT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Phase</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_02_01 : Site Shall Have GlobalId Defined" description="Site Shall Have GlobalId Defined" identifier="4_02_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSITE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_02_02 : Site Shall Have Name Defined" description="Site Shall Have Name Defined" identifier="4_02_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSITE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_02_04 : Site Shall Have Description Defined" description="Site Shall Have Description Defined" identifier="4_02_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSITE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_01 : Building Shall Have GlobalId Defined" description="Building Shall Have GlobalId Defined" identifier="4_03_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_02 : Building Shall Have Name Defined" description="Building Shall Have Name Defined" identifier="4_03_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_04 : Building Shall Have Description Defined" description="Building Shall Have Description Defined" identifier="4_03_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_06 : Building Shall Have Uniclass Classification Defined" description="Building Shall Have Uniclass Classification Defined" identifier="4_03_06">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="En.*" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_08 : Building Shall Have BlockConstructionType Defined" description="Building Shall Have BlockConstructionType Defined" identifier="4_03_08">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>BlockConstructionType</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_10 : Building Shall Have MaximumBlockHeight Defined" description="Building Shall Have MaximumBlockHeight Defined" identifier="4_03_10">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>Additional_Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>MaximumBlockHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_11 : Building Shall Have NumberOfStoreys Defined" description="Building Shall Have NumberOfStoreys Defined" identifier="4_03_11">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCINTEGER">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_BuildingCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NumberOfStoreys</ids:simpleValue>
+					</ids:baseName>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_03_12 : Building Shall Have UPRN Defined" description="Building Shall Have UPRN Defined" identifier="4_03_12">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDING" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_BuildingCommon_UK</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>UPRN</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_04_01 : Building Storey Shall Have GlobalId Defined" description="Building Storey Shall Have GlobalId Defined" identifier="4_04_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGSTOREY" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_04_02 : Building Storey Shall Have Name Defined" description="Building Storey Shall Have Name Defined" identifier="4_04_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGSTOREY" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_04_05 : Building Storey Shall Have Description Defined" description="Building Storey Shall Have Description Defined" identifier="4_04_05">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGSTOREY" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_01 : Space Shall Have GlobalId Defined" description="Space Shall Have GlobalId Defined" identifier="4_05_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_02 : Space Shall Have Name Defined" description="Space Shall Have Name Defined" identifier="4_05_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_06 : Space Shall Have Description Defined" description="Space Shall Have Description Defined" identifier="4_05_06">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_07 : Space Shall Have RoomTag Defined" description="Space Shall Have RoomTag Defined" identifier="4_05_07">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Space</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>RoomTag</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_09 : Space Shall Have DfE Space Classification Defined" description="Space Shall Have DfE Space Classification Defined" identifier="4_05_09">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_11_01 : Space Shall Have ClearHeight Defined In BaseQuantities" description="Space Shall Have ClearHeight Defined In BaseQuantities" identifier="4_05_11_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCLENGTHMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>ClearHeight</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_12 : Space Shall Have GrossFloorArea Defined" description="Space Shall Have GrossFloorArea Defined" identifier="4_05_12">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCAREAMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>GrossFloorArea</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_13 : Space Shall Have NetFloorArea Defined" description="Space Shall Have NetFloorArea Defined" identifier="4_05_13">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCAREAMEASURE">
+					<ids:propertySet>
+						<ids:simpleValue>BaseQuantities</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>NetFloorArea</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:double">
+							<xs:minExclusive value="0" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_14 : Space Shall Have Uniclass Classification Defined" description="Space Shall Have Uniclass Classification Defined" identifier="4_05_14">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="SL_25_10_57" />
+							<xs:enumeration value="SL_25_10_72" />
+							<xs:enumeration value="SL_25_10_14" />
+							<xs:enumeration value="SL_25_10_67" />
+							<xs:enumeration value="SL_25_10_78" />
+							<xs:enumeration value="SL_25_10_30" />
+							<xs:enumeration value="SL_25_10_55" />
+							<xs:enumeration value="SL_25_40_22" />
+							<xs:enumeration value="SL_25_40_23" />
+							<xs:enumeration value="SL_25_10_04" />
+							<xs:enumeration value="SL_25_10_41" />
+							<xs:enumeration value="SL_25_10_75" />
+							<xs:enumeration value="SL_25_40_65" />
+							<xs:enumeration value="SL_25_10_74" />
+							<xs:enumeration value="SL_42_40_30" />
+							<xs:enumeration value="SL_25_10_54" />
+							<xs:enumeration value="SL_25_10_24" />
+							<xs:enumeration value="SL_90_20_80" />
+							<xs:enumeration value="SL_25_40_42" />
+							<xs:enumeration value="SL_42_40_82" />
+							<xs:enumeration value="SL_42_40_35" />
+							<xs:enumeration value="SL_25_10_01" />
+							<xs:enumeration value="SL_25_10_21" />
+							<xs:enumeration value="SL_40_20_22" />
+							<xs:enumeration value="SL_40_20_43" />
+							<xs:enumeration value="SL_25_10_05" />
+							<xs:enumeration value="SL_25_75_80" />
+							<xs:enumeration value="SL_25_10_84" />
+							<xs:enumeration value="SL_30_50_40" />
+							<xs:enumeration value="SL_35_10_15" />
+							<xs:enumeration value="SL_35_10_88" />
+							<xs:enumeration value="SL_40_05_81" />
+							<xs:enumeration value="SL_35_50_78" />
+							<xs:enumeration value="SL_35_10_66" />
+							<xs:enumeration value="SL_35_10_58" />
+							<xs:enumeration value="SL_35_50_69" />
+							<xs:enumeration value="SL_25_75_55" />
+							<xs:enumeration value="SL_40_60_78" />
+							<xs:enumeration value="SL_25_75_76" />
+							<xs:enumeration value="SL_25_75_45" />
+							<xs:enumeration value="SL_25_75_82" />
+							<xs:enumeration value="SL_20_65_42" />
+							<xs:enumeration value="SL_20_15_59" />
+							<xs:enumeration value="SL_35_10_31" />
+							<xs:enumeration value="SL_20_15_73" />
+							<xs:enumeration value="SL_90_20_86" />
+							<xs:enumeration value="SL_35_60_45" />
+							<xs:enumeration value="SL_90_20_85" />
+							<xs:enumeration value="SL_25_70_13" />
+							<xs:enumeration value="SL_35_50_60" />
+							<xs:enumeration value="SL_90_50_35" />
+							<xs:enumeration value="SL_90_50_87" />
+							<xs:enumeration value="SL_90_20_14" />
+							<xs:enumeration value="SL_25_80_22" />
+							<xs:enumeration value="SL_25_80_75" />
+							<xs:enumeration value="SL_90_50_13" />
+							<xs:enumeration value="SL_90_50_82" />
+							<xs:enumeration value="SL_90_50_73" />
+							<xs:enumeration value="SL_35_60_78" />
+							<xs:enumeration value="SL_90_50_22" />
+							<xs:enumeration value="SL_90_50_77" />
+							<xs:enumeration value="SL_90_50_16" />
+							<xs:enumeration value="SL_90_50_10" />
+							<xs:enumeration value="SL_20_15_71" />
+							<xs:enumeration value="SL_90_10_15" />
+							<xs:enumeration value="SL_90_10_51" />
+							<xs:enumeration value="SL_35_80_89" />
+							<xs:enumeration value="SL_35_80_39" />
+							<xs:enumeration value="SL_90_90_64" />
+							<xs:enumeration value="SL_35_60_14" />
+							<xs:enumeration value="SL_90_10_87" />
+							<xs:enumeration value="SL_20_90_25" />
+							<xs:enumeration value="SL_90_10_47" />
+							<xs:enumeration value="SL_30_60_47" />
+							<xs:enumeration value="SL_90_20_13" />
+							<xs:enumeration value="SL_35_80_03" />
+							<xs:enumeration value="SL_35_80_00" />
+							<xs:enumeration value="SL_35_80_80" />
+							<xs:enumeration value="SL_35_80_01" />
+							<xs:enumeration value="SL_90_90_78" />
+							<xs:enumeration value="SL_90_90_77" />
+							<xs:enumeration value="SL_75_10_21" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="SL_40_55_36" />
+							<xs:enumeration value="SL_25_10_60" />
+							<xs:enumeration value="SL_40_20_59" />
+							<xs:enumeration value="SL_80_35_63" />
+							<xs:enumeration value="SL_25_40_61" />
+							<xs:enumeration value="SL_40_55_59" />
+							<xs:enumeration value="SL_90_50_84" />
+							<xs:enumeration value="SL_40_55_61" />
+							<xs:enumeration value="SL_42_15_55" />
+							<xs:enumeration value="SL_42_85_59" />
+							<xs:enumeration value="SL_40_55_64" />
+							<xs:enumeration value="SL_32_40_90" />
+							<xs:enumeration value="SL_32_80_97" />
+							<xs:enumeration value="SL_35_85_03" />
+							<xs:enumeration value="SL_32_80_48" />
+							<xs:enumeration value="SL_40_55_34" />
+							<xs:enumeration value="SL_32_80_47" />
+							<xs:enumeration value="SL_40_05_79" />
+							<xs:enumeration value="SL_32_35_04" />
+							<xs:enumeration value="SL_32_10_37" />
+							<xs:enumeration value="SL_32_35_30" />
+							<xs:enumeration value="SL_50_35_08" />
+							<xs:enumeration value="SL_42_15_60" />
+							<xs:enumeration value="SL_32_80_03" />
+							<xs:enumeration value="SL_42_15_32" />
+							<xs:enumeration value="SL_42_15_37" />
+							<xs:enumeration value="SL_42_15_47" />
+							<xs:enumeration value="SL_42_15_78" />
+							<xs:enumeration value="SL_42_55_90" />
+							<xs:enumeration value="SL_42_55_56" />
+							<xs:enumeration value="SL_80_35_20" />
+							<xs:enumeration value="SL_80_35_74" />
+							<xs:enumeration value="SL_80_10_94" />
+							<xs:enumeration value="SL_80_45_59" />
+							<xs:enumeration value="SL_80_45_01" />
+							<xs:enumeration value="SL_80_45_15" />
+							<xs:enumeration value="SL_50_40_72" />
+							<xs:enumeration value="SL_90_90_63" />
+							<xs:enumeration value="SL_32_80_46" />
+							<xs:enumeration value="SL_32_80_95" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_05_16 : Space Shall Be Allocated To A Zone" description="Space Shall Be Allocated To A Zone" identifier="4_05_16">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCSPACE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:partOf cardinality="required" relation="IFCRELASSIGNSTOGROUP">
+					<ids:entity>
+						<ids:name>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="IFCZONE" />
+							</xs:restriction>
+						</ids:name>
+					</ids:entity>
+				</ids:partOf>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_06_01 : Zone Shall Have GlobalId Defined" description="Zone Shall Have GlobalId Defined" identifier="4_06_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCZONE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>GlobalId</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_06_02 : Zone Shall Have Name Defined" description="Zone Shall Have Name Defined" identifier="4_06_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCZONE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_06_04 : Zone Shall Have Description Defined" description="Zone Shall Have Description Defined" identifier="4_06_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCZONE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_06_06 : Zone Shall Have Zone Classification Defined" description="Zone Shall Have Zone Classification Defined" identifier="4_06_06">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCZONE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Zone Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_02 : Object Type Shall Have Enumeration (PredefinedType) Defined" description="Object Type Shall Have Enumeration (PredefinedType) Defined" identifier="4_07_02">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>PredefinedType</ids:simpleValue>
+					</ids:name>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_03 : Object Type Shall Have Enumeration (PredefinedType) That Is Not NOTDEFINED" description="Object Type Shall Have Enumeration (PredefinedType) That Is Not NOTDEFINED" identifier="4_07_03">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCVIBRATIONISOLATORTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="prohibited">
+					<ids:name>
+						<ids:simpleValue>PredefinedType</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<ids:simpleValue>NOTDEFINED</ids:simpleValue>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_04 : Object Type Shall Have Name Defined" description="Object Type Shall Have Name Defined" identifier="4_07_04">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONELEMENTTYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_07 : Object Type Shall Have Description Defined" description="Object Type Shall Have Description Defined" identifier="4_07_07">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONELEMENTTYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_07_08 : Object Type Shall Have Uniclass Classification Defined" description="Object Type Shall Have Uniclass Classification Defined" identifier="4_07_08">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBEAMTYPE" />
+							<xs:enumeration value="IFCCOLUMNTYPE" />
+							<xs:enumeration value="IFCCURTAINWALLTYPE" />
+							<xs:enumeration value="IFCMEMBERTYPE" />
+							<xs:enumeration value="IFCPLATETYPE" />
+							<xs:enumeration value="IFCRAILINGTYPE" />
+							<xs:enumeration value="IFCRAMPFLIGHTTYPE" />
+							<xs:enumeration value="IFCSLABTYPE" />
+							<xs:enumeration value="IFCSTAIRFLIGHTTYPE" />
+							<xs:enumeration value="IFCWALLTYPE" />
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXYTYPE" />
+							<xs:enumeration value="IFCCOVERINGTYPE" />
+							<xs:enumeration value="IFCFURNISHINGELEMENTTYPE" />
+							<xs:enumeration value="IFCFURNITURETYPE" />
+							<xs:enumeration value="IFCSYSTEMFURNITUREELEMENTTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONELEMENTTYPE" />
+							<xs:enumeration value="IFCFIRESUPPRESSIONTERMINALTYPE" />
+							<xs:enumeration value="IFCSANITARYTERMINALTYPE" />
+							<xs:enumeration value="IFCSTACKTERMINALTYPE" />
+							<xs:enumeration value="IFCWASTETERMINALTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALTYPE" />
+							<xs:enumeration value="IFCGASTERMINALTYPE" />
+							<xs:enumeration value="IFCELECTRICAPPLIANCETYPE" />
+							<xs:enumeration value="IFCELECTRICHEATERTYPE" />
+							<xs:enumeration value="IFCLAMPTYPE" />
+							<xs:enumeration value="IFCLIGHTFIXTURETYPE" />
+							<xs:enumeration value="IFCOUTLETTYPE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENTTYPE" />
+							<xs:enumeration value="IFCAIRTOAIRHEATRECOVERYTYPE" />
+							<xs:enumeration value="IFCBOILERTYPE" />
+							<xs:enumeration value="IFCCHILLERTYPE" />
+							<xs:enumeration value="IFCCOILTYPE" />
+							<xs:enumeration value="IFCCONDENSERTYPE" />
+							<xs:enumeration value="IFCCOOLEDBEAMTYPE" />
+							<xs:enumeration value="IFCCOOLINGTOWERTYPE" />
+							<xs:enumeration value="IFCEVAPORATIVECOOLERTYPE" />
+							<xs:enumeration value="IFCEVAPORATORTYPE" />
+							<xs:enumeration value="IFCHEATEXCHANGERTYPE" />
+							<xs:enumeration value="IFCHUMIDIFIERTYPE" />
+							<xs:enumeration value="IFCSPACEHEATERTYPE" />
+							<xs:enumeration value="IFCTUBEBUNDLETYPE" />
+							<xs:enumeration value="IFCUNITARYEQUIPMENTTYPE" />
+							<xs:enumeration value="IFCELECTRICGENERATORTYPE" />
+							<xs:enumeration value="IFCELECTRICMOTORTYPE" />
+							<xs:enumeration value="IFCMOTORCONNECTIONTYPE" />
+							<xs:enumeration value="IFCTRANSFORMERTYPE" />
+							<xs:enumeration value="IFCAIRTERMINALBOXTYPE" />
+							<xs:enumeration value="IFCDAMPERTYPE" />
+							<xs:enumeration value="IFCFLOWMETERTYPE" />
+							<xs:enumeration value="IFCVALVETYPE" />
+							<xs:enumeration value="IFCELECTRICTIMECONTROLTYPE" />
+							<xs:enumeration value="IFCPROTECTIVEDEVICETYPE" />
+							<xs:enumeration value="IFCSWITCHINGDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTFITTINGTYPE" />
+							<xs:enumeration value="IFCPIPEFITTINGTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERFITTINGTYPE" />
+							<xs:enumeration value="IFCJUNCTIONBOXTYPE" />
+							<xs:enumeration value="IFCCOMPRESSORTYPE" />
+							<xs:enumeration value="IFCFANTYPE" />
+							<xs:enumeration value="IFCPUMPTYPE" />
+							<xs:enumeration value="IFCDUCTSEGMENTTYPE" />
+							<xs:enumeration value="IFCPIPESEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLECARRIERSEGMENTTYPE" />
+							<xs:enumeration value="IFCCABLESEGMENTTYPE" />
+							<xs:enumeration value="IFCTANKTYPE" />
+							<xs:enumeration value="IFCELECTRICFLOWSTORAGEDEVICETYPE" />
+							<xs:enumeration value="IFCDUCTSILENCERTYPE" />
+							<xs:enumeration value="IFCFILTERTYPE" />
+							<xs:enumeration value="IFCACTUATORTYPE" />
+							<xs:enumeration value="IFCALARMTYPE" />
+							<xs:enumeration value="IFCCONTROLLERTYPE" />
+							<xs:enumeration value="IFCFLOWINSTRUMENTTYPE" />
+							<xs:enumeration value="IFCSENSORTYPE" />
+							<xs:enumeration value="IFCTRANSPORTELEMENTTYPE" />
+							<xs:enumeration value="IFCDOORSTYLE" />
+							<xs:enumeration value="IFCWINDOWSTYLE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Pr_.*" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_05 : Object Occurrence Shall Have SerialNumber That Is Defined" description="Object Occurrence Shall Have SerialNumber That Is Defined" identifier="4_08_05">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>SerialNumber</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_07 : Object Occurrence Shall Have InstallationDate That Is Defined" description="Object Occurrence Shall Have InstallationDate That Is Defined" identifier="4_08_07">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Component</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>InstallationDate</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_09 : Object Occurrence Shall Have WarrantyStartDate That Is Defined" description="Object Occurrence Shall Have WarrantyStartDate That Is Defined" identifier="4_08_09">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Component</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>WarrantyStartDate</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_11 : Object Occurrence Shall Have TagNumber That Is Defined" description="Object Occurrence Shall Have TagNumber That Is Defined" identifier="4_08_11">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Component</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>TagNumber</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_13 : Object Occurrence Shall Have BarCode That Is Defined" description="Object Occurrence Shall Have BarCode That Is Defined" identifier="4_08_13">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>BarCode</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_15 : Object Occurrence Shall Have AssetIdentifier That Is Defined" description="Object Occurrence Shall Have AssetIdentifier That Is Defined" identifier="4_08_15">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>COBie_Component</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>AssetIdentifier</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_17 : Object Occurrence (Door) Shall Have FireRating That Is Defined" description="Object Occurrence (Door) Shall Have FireRating That Is Defined" identifier="4_08_17">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCDOOR" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_DoorCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>FireRating</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_08_18 : Object Occurrence (Door) Shall Have FireRating That Is From PickList Provided In The Projects Information Standard" description="Object Occurrence (Door) Shall Have FireRating That Is From PickList Provided In The Projects Information Standard" identifier="4_08_18">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCDOOR" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCLABEL">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_DoorCommon</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>FireRating</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Undefined" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="20" />
+							<xs:enumeration value="30" />
+							<xs:enumeration value="60" />
+							<xs:enumeration value="90" />
+							<xs:enumeration value="120" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_09_01 : System Shall Have Name Defined" description="System Shall Have Name Defined" identifier="4_09_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSYSTEM</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Name</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_09_03 : System Shall Have Description Defined" description="System Shall Have Description Defined" identifier="4_09_03">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSYSTEM</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value=".+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+		<ids:specification ifcVersion="IFC2X3" name="4_09_05_01 : System Shall Have Uniclass Classification Defined" description="System Shall Have Uniclass Classification Defined" identifier="4_09_05_01">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSYSTEM</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

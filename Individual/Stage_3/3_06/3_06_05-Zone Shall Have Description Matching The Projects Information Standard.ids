@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>3_06_05 : Zone Shall Have Description Matching The Projects Information Standard</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 3 : Spatial Coordination</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="3_06_05 : Zone Shall Have Description Matching The Projects Information Standard" description="Zone Shall Have Description Matching The Projects Information Standard" identifier="3_06_05">
+			<ids:applicability minOccurs="1" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCZONE" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:attribute cardinality="required">
+					<ids:name>
+						<ids:simpleValue>Description</ids:simpleValue>
+					</ids:name>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Classrooms, playrooms, ICT, light practical spaces and heavy practical spaces" />
+							<xs:enumeration value="Halls, activity studios, sports halls, dining and social areas" />
+							<xs:enumeration value="Libraries and study areas, arts &amp; DT learning resources and SEN and support spaces" />
+							<xs:enumeration value="School kitchen spaces, changing rooms, toilets and hygiene rooms, plant areas and circulation areas" />
+							<xs:enumeration value="Residential accommodation" />
+							<xs:enumeration value="Administration and entrances, administration offices, offices, staff work rooms and other staff spaces" />
+							<xs:enumeration value="Storage spaces for teaching, personal, admin, and maintenance items" />
+							<xs:enumeration value="Hard informal and social areas" />
+							<xs:enumeration value="Hard outdoor physical education areas" />
+							<xs:enumeration value="Habitat supervised areas" />
+							<xs:enumeration value="Soft informal and social areas" />
+							<xs:enumeration value="Soft outdoor physical education areas" />
+							<xs:enumeration value="Non-net site areas" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="n/a" />
+							<xs:enumeration value="n/a" />
+						</xs:restriction>
+					</ids:value>
+				</ids:attribute>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

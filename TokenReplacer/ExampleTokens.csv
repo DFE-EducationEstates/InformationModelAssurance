@@ -1,0 +1,19 @@
+Token,Value
+IfcProjectName,Name of Project
+IfcProjectDescription,Indicative build type, Form of entry, Education Type
+IfcProjectPhase,RIBA Stage 4 : Technical Design
+IfcSiteName,Road Name, Town and Postcode
+IfcSiteDescription,Total Site Area and Long Site Location including Bounding Features 
+IfcBuildingName,Name of the School/College and Building number
+IfcBuildingDescription,Education Type, building number and building description/name 
+IfcBuildingClassificationReference,En_XX_XX_XX : Description
+BuildingBlockConstructionType,n/a
+IfcBuildingUPRN,n/a
+IfcBuildingStorey.Level 00.Elevation,55000
+IfcBuildingStorey.Level 01.Elevation,59000
+IfcBuildingStorey.Level 02.Elevation,63000
+IfcBuildingStorey.Level 03.Elevation,67000
+IfcBuildingStorey.Level 00.Height,3600
+IfcBuildingStorey.Level 01.Height,3600
+IfcBuildingStorey.Level 02.Height,3600
+IfcBuildingStorey.Level 03.Height,3600

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_05_15_SL_35_80_89 : Spaces with classification 'S7006, S7009, S7011,+16 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_89'</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_05_15_SL_35_80_89 : Spaces with classification 'S7006, S7009, S7011,+16 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_89'" description="Spaces with classification 'S7006, S7009, S7011,+16 more' Should Have Uniclass Classification Classification With Value 'SL_35_80_89'" identifier="5_05_15_SL_35_80_89">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<ids:simpleValue>IFCSPACE</ids:simpleValue>
+					</ids:name>
+				</ids:entity>
+				<ids:classification>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="S7006" />
+							<xs:enumeration value="S7009" />
+							<xs:enumeration value="S7011" />
+							<xs:enumeration value="S7013" />
+							<xs:enumeration value="S7014" />
+							<xs:enumeration value="S7015" />
+							<xs:enumeration value="S7016" />
+							<xs:enumeration value="S7017" />
+							<xs:enumeration value="S7060" />
+							<xs:enumeration value="S7061" />
+							<xs:enumeration value="S7062" />
+							<xs:enumeration value="S7064" />
+							<xs:enumeration value="S7066" />
+							<xs:enumeration value="S7067" />
+							<xs:enumeration value="S7068" />
+							<xs:enumeration value="S7069" />
+							<xs:enumeration value="S7070" />
+							<xs:enumeration value="S7082" />
+							<xs:enumeration value="S7109" />
+						</xs:restriction>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="DfE Space Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:classification cardinality="required">
+					<ids:value>
+						<ids:simpleValue>SL_35_80_89</ids:simpleValue>
+					</ids:value>
+					<ids:system>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Uniclass Classification" />
+						</xs:restriction>
+					</ids:system>
+				</ids:classification>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>

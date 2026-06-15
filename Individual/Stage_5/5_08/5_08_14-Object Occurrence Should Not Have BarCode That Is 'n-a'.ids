@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
+	<ids:info>
+		<ids:title>5_08_14 : Object Occurrence Should Not Have BarCode That Is 'n/a'</ids:title>
+		<ids:copyright>CC BY 4.0</ids:copyright>
+		<ids:version>C01</ids:version>
+		<ids:description>Assurance of IFC-SPF deliverables against DfE's S25 Information Requirements - Individual</ids:description>
+		<ids:author>DfE.BIM@Education.gov.uk</ids:author>
+		<ids:date>2026-06-15</ids:date>
+		<ids:purpose>Information Model Assurance</ids:purpose>
+		<ids:milestone>RIBA Stage 5 : Construction and Manufacturing</ids:milestone>
+	</ids:info>
+	<ids:specifications>
+		<ids:specification ifcVersion="IFC2X3" name="5_08_14 : Object Occurrence Should Not Have BarCode That Is 'n/a'" description="Object Occurrence Should Not Have BarCode That Is 'n/a'" identifier="5_08_14">
+			<ids:applicability minOccurs="0" maxOccurs="unbounded">
+				<ids:entity>
+					<ids:name>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IFCBUILDINGELEMENTPROXY" />
+							<xs:enumeration value="IFCDOOR" />
+							<xs:enumeration value="IFCWINDOW" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCDISTRIBUTIONCONTROLELEMENT" />
+							<xs:enumeration value="IFCDISTRIBUTIONCHAMBERELEMENT" />
+							<xs:enumeration value="IFCENERGYCONVERSIONDEVICE" />
+							<xs:enumeration value="IFCFLOWCONTROLLER" />
+							<xs:enumeration value="IFCELECTRICDISTRIBUTIONPOINT" />
+							<xs:enumeration value="IFCFLOWMOVINGDEVICE" />
+							<xs:enumeration value="IFCFLOWSTORAGEDEVICE" />
+							<xs:enumeration value="IFCFLOWTERMINAL" />
+							<xs:enumeration value="IFCFLOWTREATMENTDEVICE" />
+							<xs:enumeration value="IFCDISCRETEACCESSORY" />
+							<xs:enumeration value="IFCTENDON" />
+							<xs:enumeration value="IFCFURNISHINGELEMENT" />
+							<xs:enumeration value="IFCTRANSPORTELEMENT" />
+						</xs:restriction>
+					</ids:name>
+				</ids:entity>
+			</ids:applicability>
+			<ids:requirements>
+				<ids:property cardinality="required" dataType="IFCTEXT">
+					<ids:propertySet>
+						<ids:simpleValue>Pset_ManufacturerOccurrence</ids:simpleValue>
+					</ids:propertySet>
+					<ids:baseName>
+						<ids:simpleValue>BarCode</ids:simpleValue>
+					</ids:baseName>
+					<ids:value>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[^n].*|n([^/].*)?|n\/([^a].*)?|n\/a.+" />
+						</xs:restriction>
+					</ids:value>
+				</ids:property>
+			</ids:requirements>
+		</ids:specification>
+	</ids:specifications>
+</ids:ids>
